@@ -26,3 +26,10 @@
 [Урок 12](VmeshkoV.github.io/lesson_12/ "создание аккаунта на GitHub") - создание аккаунта на GitHub
 
 [Урок 13](VmeshkoV.github.io/lesson_13/ "Создание формы Pixel Perfect") - Создание формы Pixel Perfect
+
+[Практика 1](VmeshkoV.github.io/praktika_1/ "Верстка шапки сайта") - Верстка шапки сайта
+
+
+
+
+
