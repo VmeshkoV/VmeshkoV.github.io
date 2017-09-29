@@ -22,3 +22,5 @@
 [Урок 10](VmeshkoV.github.io/lesson_10/ "знакомство с препроцесоором LESS") - знакомство с препроцесоором LESS
 
 [Урок 11](VmeshkoV.github.io/lesson_11/ "создание сниппетов") - создание сниппетов
+
+[Урок 12](VmeshkoV.github.io/lesson_12/ "создание аккаунта на GitHub") - создание аккаунта на GitHub
