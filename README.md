@@ -3,8 +3,8 @@
 
 [Урок 1](VmeshkoV.github.io/lesson_1/ "пройден первый тест") - пройден первый тест
 
-
 [Урок 2](VmeshkoV.github.io/lesson_2/ "создал директорию и настроил Sublime") - создал директорию и настроил Sublime
+
 [Урок 3](VmeshkoV.github.io/lesson_3/ "вырезана графика из psd макета") - вырезана графика из psd макета
 [Урок 4](VmeshkoV.github.io/lesson_4/ "сверстанная только на html книжка") - сверстанная только на html книжка
 [Урок 5](VmeshkoV.github.io/lesson_5/ "сверстанная на html и css книга") - сверстанная на html и css книга
