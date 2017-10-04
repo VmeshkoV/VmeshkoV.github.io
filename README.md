@@ -37,6 +37,9 @@
 
 [Практика 3](VmeshkoV.github.io/praktika_3/ "Адаптация секции main") - Адаптация секции main
 
+[Урок 16](VmeshkoV.github.io/lesson_16/ "Слайдер") - Слайдер
+
+
 
 
 
