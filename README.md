@@ -17,7 +17,7 @@
 
 [Урок 8](VmeshkoV.github.io/lesson_8/ "знакомство с сеткой bootstrap") - знакомство с сеткой bootstrap
 
-[Урок 9](VmeshkoV.github.io/lesson_9/ "сайт из 7 урока, сверстанный на bootstrap") - сайт из 7 урока, сверстанный на bootstrap
+[Урок 9](https://vmeshkov.github.io/lesson_9/ "сайт из 7 урока, сверстанный на bootstrap") - сайт из 7 урока, сверстанный на bootstrap
 
 [Урок 10](VmeshkoV.github.io/lesson_10/ "знакомство с препроцесоором LESS") - знакомство с препроцесоором LESS
 
