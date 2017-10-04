@@ -35,7 +35,7 @@
 
 [Урок 15](VmeshkoV.github.io/lesson_15/ "Добавление псевдокласса") - Добавление псевдокласса
 
-[Практика 3](VmeshkoV.github.io/praktika_3/ "Адаптация секции main") - Адаптация секции main
+[Практика 3](https://vmeshkov.github.io/praktika_3/ "Адаптация секции main") - Адаптация секции main
 
 [Урок 16](VmeshkoV.github.io/lesson_16/ "Слайдер") - Слайдер
 
