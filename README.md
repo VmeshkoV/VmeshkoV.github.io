@@ -43,7 +43,7 @@
 
 [Урок 17](https://vmeshkov.github.io/lesson_17/ "Модальное окно") - Модальное окно
 
-[Практика 5](https://vmeshkov.github.io/praktika_new/ "Верстка модального окна") - Верстка модального окна
+[Практика 5](https://vmeshkov.github.io/praktika_new-new2/ "Верстка модального окна") - Верстка модального окна
 
 
 
