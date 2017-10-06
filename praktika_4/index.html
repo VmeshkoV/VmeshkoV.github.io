@@ -7,6 +7,7 @@
 <title>Гипсолит. Штукатурка стен</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" href="css/style.css"/>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
   <main>
@@ -26,7 +27,7 @@
   			<div class="col-md-3 col-sm-5 col-xs-12">
   				<div class="wrap">
   					<div class="wrap-block">
-  						<button class="button header-btn">Получить консультацию</button>
+  						<button class="button header-btn popup-btn">Получить консультацию</button>
   					</div>
   				</div>
   			</div>
@@ -56,7 +57,7 @@
   	</div>
   </main>
 
-<!-- Секция со слайдером -->
+<!--Секция со слайдером-->
   <section class="features">
     <div class="container">
       <h2 class="section-header">
@@ -105,7 +106,7 @@
             </picture>
           </div>
           <h3>Экономите на материалах</h3>
-          <p>Мы являемся структурным подразделением компании поставщика строительных смесей gicema.ru  и даём Вам самые 
+          <p>Мы являемся структурным подразделением компании поставщика строительных смесей <a href="#" class="features-link">gicema.ru</a> и даём Вам самые 
           выгодные цены.
           </p>
         </div>
@@ -121,10 +122,32 @@
 
 
 
+<!-- Модальные окна -->
+<!-- Модальное окно Получить консультацию -->
+<div class="popup">
+  <!-- Само (белое) окно-->
+  <div class="popup-dialog">
+    <!-- Содержимое модального окна-->
+    <div class="popup-content">
+      <button class="popup-close">&times;</button>
+      <h4 class="popup-header">Заинтересовало?</h4>
+      <p>Оставь контактные данные<br> для связи</p>
+      <div class="main-form popup-form">
+         <form class="popup-form-modal" action="#">
+            <label class="popup-label-name" for="#">Ваше имя</label>
+            <input type="text">
+            <label for="#">Номер телефона</label>
+            <input type="text">
+            <label for="#">Сообщение</label>
+            <textarea class="popup-textarea"></textarea>
+            <button class="button form-btn" type="submit">Оставьте заявку</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-<!-- Подключаем JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <!-- Подключаем стили Slick Slider -->
 <link rel="stylesheet" href="slick/slick.css">
@@ -136,6 +159,12 @@
 <!-- Инициализируем слайдер -->
 <script>
   $(document).ready(function(){
+    $('.popup-btn').one('click', function(event) {
+      $('.popup').fadeIn();
+    });
+     $('.popup-close').one('click', function(event) {
+      $('.popup').fadeOut();
+    });
   $('.features-slider').slick({
       infinite: true,
       slidesToShow: 4,
