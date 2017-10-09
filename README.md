@@ -47,6 +47,11 @@
 
 [Урок 18 ч.1](https://vmeshkov.github.io/lesson_18.1/ "Таб вкладки") - Таб вкладки
 
+[Урок 18 ч.2](https://vmeshkov.github.io/lesson_18.2/ "Аккардеон") - Аккардеон
+
+
+
+
 
 
 
