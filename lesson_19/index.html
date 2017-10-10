@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Форма регистрации</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/animate.css">
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+</head>
+<body>
+<div class="section">
+  <div class="container">
+    <div class="content wow slideInLeft" data-wow-duration="0.5s">
+          <!-- Nav tabs -->
+      <ul class="nav nav-tabs inset wow fadeIn" data-wow-delay="0.5s">
+        <li class="first-link active"><a class="link" href="#home" data-toggle="tab">Вход</a></li>
+        <li class="second-link"><a class="link" href="#profile" data-toggle="tab">Регистрация</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <form class="border wow fadeIn" data-wow-delay="0.5s" action="#">
+                  <div class="form-body">
+                    <input class="user-value wow rotateInDownLeft" data-wow-delay="1s" type="name" placeholder="Ваше имя">
+                    <input class="user-value wow rotateInDownLeft" data-wow-delay="1.2s" type="password" placeholder="Пароль">
+                    <a href="#" class="form-password-info wow lightSpeedIn" data-wow-delay="1.4s">Забыли пароль?</a>
+                    <input class="checkbox wow fadeIn" data-wow-delay="1.8s" data-wow-duration="1.5s" type="checkbox"><label class="wow fadeIn" data-wow-delay="1s" data-wow-duration="1.5s">Напомнить мне</label>
+                    <button class="enter-btn wow rotateIn" data-wow-delay="1.3s" type="submit" value="Войти">Войти</button>
+                  </div>
+                </form>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="profile">
+          <form class="border" action="#">
+            <div class="form-body">
+              <input class="user-value wow zoomInLeft" type="name" placeholder="Новое имя">
+              <input class="user-value wow zoomInRight" data-wow-delay="1s" type="password" placeholder="Новый пароль">
+              <a href="#" class="form-password-info wow jackInTheBox" data-wow-delay="1.4s" data-wow-duration="1s">Информация</a>
+              <button class="reg-btn wow flipInY" data-wow-delay="1.4s" data-wow-duration="1s" type="submit" value="Войти">Регистрация</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<script>
+  new WOW().init();
+</script>
+</body>
+</html>
