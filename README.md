@@ -51,6 +51,8 @@
 
 [Практика 6](https://vmeshkov.github.io/praktika_6/ "Верстка секции с прайсом") - Верстка секции с прайсом
 
+[Урок 19](https://vmeshkov.github.io/lesson_19/ "Анимация CSS") - Анимация CSS
+
 
 
 
