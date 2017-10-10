@@ -49,6 +49,8 @@
 
 [Урок 18 ч.2](https://vmeshkov.github.io/lesson_18.2/ "Аккардеон") - Аккардеон
 
+[Практика 6](https://vmeshkov.github.io/praktika_6/ "Верстка секции с прайсом") - Верстка секции с прайсом
+
 
 
 
