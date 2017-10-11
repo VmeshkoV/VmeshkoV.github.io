@@ -53,6 +53,8 @@
 
 [Урок 19](https://vmeshkov.github.io/lesson_19/ "Анимация CSS") - Анимация CSS
 
+[Практика 7](https://vmeshkov.github.io/praktika_7/ "Верстка секции с отзывами") - Верстка секции с отзывами
+
 
 
 
