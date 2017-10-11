@@ -57,6 +57,8 @@
 
 [Урок 20](https://vmeshkov.github.io/lesson_20/ "Видеофон") - Видеофон
 
+[Практика 8](https://vmeshkov.github.io/praktika_8/ "Верстка формы в отзывах") - Верстка формы в отзывах
+
 
 
 
