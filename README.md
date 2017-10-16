@@ -69,6 +69,8 @@
 
 [Практика 11](https://vmeshkov.github.io/praktika_11/ "Секция с материалами") - Секция с материалами
 
+[Урок БЭМ](https://vmeshkov.github.io/bem/ "БЭМ") - БЭМ
+
 
 
 
