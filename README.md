@@ -71,6 +71,8 @@
 
 [Урок БЭМ](https://vmeshkov.github.io/bem/ "БЭМ") - БЭМ
 
+[Практика 12-13](https://vmeshkov.github.io/praktika_13/ "Секция с контактами и футер") - Секция с контактами и футер
+
 
 
 
