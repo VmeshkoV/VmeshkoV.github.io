@@ -77,6 +77,8 @@
 
 [Урок 26](https://vmeshkov.github.io/lesson_26/ "Многостраничный сайт и меню на php") - Многостраничный сайт и меню на php
 
+[Тестовая верстка](https://vmeshkov.github.io/Тестовая верстка/ "Тест Poznan") - Тест Poznan
+
 
 
 
