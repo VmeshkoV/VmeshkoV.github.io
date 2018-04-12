@@ -3,6 +3,8 @@ Repository for examples of my work
 
 [Городская распродажа в Челябинске](https://vmeshkov.github.io/sale/ "Распродажа"): Сайт - визитка для городской распродажи
 
+[Очки виртуальной реальности](https://vmeshkov.github.io/vrbox/ "Vr очки"): Сайт для продажи очков виртуальной реальности
+
 [Урок 2](https://vmeshkov.github.io/lesson_2/ "создал директорию и настроил Sublime") - создал директорию и настроил Sublime
 
 [Урок 3](https://vmeshkov.github.io/lesson_3/ "вырезана графика из psd макета") - вырезана графика из psd макета
