@@ -1,5 +1,5 @@
-# Владимир Мешков
-Мои домашние задания
+# Vladimir Meshkov / Front-end developer
+Repository for examples of my work
 
 [Городская распродажа в Челябинске](https://vmeshkov.github.io/sale/ "Распродажа"): Сайт - визитка для городской распродажи
 
