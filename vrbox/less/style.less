@@ -1,0 +1,1876 @@
+/* Шрифты */
+@font-face {
+	font-family: 'HelveticaNeueCyr_Bold';
+	src: url('../HelveticaNeueCyr-Bold.eot');
+	src: url('../HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr_Medium';
+	src: url('../HelveticaNeueCyr-Medium.eot');
+	src: url('../HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr_Roman';
+	src: url('../HelveticaNeueCyr-Roman.eot');
+	src: url('../HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr_Black';
+	src: url('../HelveticaNeueCyr-Black.eot');
+	src: url('../HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype'),
+		url('../HelveticaNeueCyr-Black.svg#HelveticaNeueCyr-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr_Light';
+	src: url('../HelveticaNeueCyr-Light.eot');
+	src: url('../HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+		url('../HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* Миксины */
+.light() {
+	font-family: 'HelveticaNeueCyr_Light', sans-serif;
+}
+
+.medium() {
+	font-family: 'HelveticaNeueCyr_Medium', sans-serif;
+}
+
+.bold() {
+	font-family: 'HelveticaNeueCyr_Bold', sans-serif;
+	font-weight: bold;
+}
+
+.black() {
+	font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+
+.roman() {
+	font-family: 'HelveticaNeueCyr_Roman', sans-serif;
+}
+
+/* Цвет */
+@bg-light: #f8f8f0;
+@btn-color: #94ca2d;
+@icon-color: #18a7d0;
+@light: #fcfcf6;
+
+/* Базовые настройки */
+* {
+	box-sizing: border-box;
+}
+
+a{
+	outline: none;
+	&:active, &:focus{
+		outline: none;
+		text-decoration: none;
+	}
+	&:visited{
+		text-decoration: none;
+		outline: none;
+	}
+	&:hover{
+		text-decoration: none;
+		outline: none;
+	}
+}
+
+html {
+	font-size: 10px;
+}
+
+button{
+		&:visited{
+			outline: none;
+			text-decoration: none;
+		}
+		&:hover{
+			outline: none;
+			text-decoration: none;
+		}
+		&:active{
+			outline: none;
+			text-decoration: none;
+		}
+		&:focus{
+			outline:none;
+			text-decoration: none;
+		}
+}
+
+
+/* Оформление кнопок */
+.button {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	color: white;
+	background-color: @btn-color;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	.bold();
+	border: none;
+	border-radius: 3px;
+	padding: 1.9rem;
+	text-shadow: 0px 1px 2px #578f22;
+	&:hover{
+		background-color: #84b920;
+		color: #d3d3d3;
+		text-decoration: none;
+		outline: none;
+	}
+	&:active{
+		outline: none;
+		text-decoration: none;
+	}
+	&:visited{
+		outline: none;
+		text-decoration: none;
+	}
+	&:focus{
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+
+/* Оформление форм*/
+.order-form {
+	border: solid 4px #21a3af;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+	margin-top: 2.5rem;
+	margin-bottom: 2.2rem;
+	padding-top: 1.8rem;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	background-color: #000;
+	h3{
+		.medium();
+		font-size: 2.5rem;
+		font-weight: 300;
+		margin-bottom: 2rem;
+	}
+	input {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		border: solid 2px #fff;
+		border-radius: 3px;
+		background-color: #000;
+		font-size: 1.6rem;
+		color: #fff;
+		padding: 1.5rem 8rem 1.5rem 2rem;
+		margin-bottom: 1rem;
+	}
+	select{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		height: 5rem;
+		border: solid 2px #fff;
+		border-radius: 3px;
+		background-color: #000;
+		font-size: 1.6rem;
+		color: #fff;
+		margin-bottom: 1rem;
+		&:active, &:focus{
+			outline: none;
+		}
+	}
+	button {
+		width: 100%;
+		&:visited{
+			outline: none;
+			text-decoration: none;
+		}
+		&:hover{
+			outline: none;
+			text-decoration: none;
+		}
+		&:active{
+			outline: none;
+			text-decoration: none;
+		}
+		&:focus{
+			outline:none;
+			text-decoration: none;
+		}
+	}
+	p{
+		font-size: 1.5rem;
+		font-weight: 300;
+		margin-top: 1.7rem;
+		margin-bottom: 2.6rem;
+	}
+	a:visited{
+		outline: none;
+	}
+}
+
+
+/* Header */
+.header {
+	background-color:  rgba(0, 0, 0, 0.62);
+	color: white;
+	height: 8.5rem;
+}
+
+.logo {
+	margin-right: 1rem;
+	margin-top: -3.6rem;
+}
+
+.header_text {
+	display: inline-block;
+	.medium();
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: left;
+	line-height: 2.5rem;
+	margin-top: 2rem;
+}
+
+.header_phone {
+	.bold();
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+.header_link {
+	color: @btn-color;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: -1rem;
+	margin-left: 5.5rem;
+	&:hover{
+		text-decoration: none;
+		color: #6d981b;
+	}
+	&:active{
+		outline: none;
+		text-decoration: none;
+	}
+	&:focus{
+		text-decoration: none;
+		outline: none;
+	}
+	&:visited{
+		text-decoration: none;
+		outline: none;
+	}
+}
+
+/* Секция Main */
+.main {
+	background: #000 url(../img/main/main-bg.jpg) center center no-repeat;
+	background-size: cover;
+	height: 70rem;
+}
+
+.main_header{
+	color: white;
+	font-size: 3.9rem;
+	.bold();
+	font-weight: 700;
+	text-align: left;
+	text-shadow: 1px 3px 0px #272b25;
+	margin-top: 11rem;
+}
+
+.main_action {
+	color: white;
+	font-weight: 700;
+	font-size: 3rem;
+	.bold();
+}
+
+.main_btn {
+	display: block;
+	margin-top: 2rem;
+	margin-left: 0;
+	width: 50%;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.main_glasses-img {
+	margin-top: 5rem;
+	margin-left: -3rem;
+}
+
+.main_dino-img {
+	margin-top: 21rem;
+  margin-left: -11rem;
+}
+
+
+/* Секция What */
+.what {
+	position: relative;
+	background-color: @bg-light;
+	&_header{
+		.black();
+		font-size: 3.5rem;
+		font-weight: 900;
+		margin-top: 10rem;
+		margin-bottom: 4rem;
+	}
+	&_description{
+		.roman();
+		line-height: 1.2;
+		font-size: 1.7rem;
+		margin-bottom: 3rem;
+	}
+	&_list{
+	list-style: none;
+	margin-left: -4rem;
+	.roman();
+	font-size: 1.7rem;
+	line-height: 1;
+	min-height: 14rem;
+	}
+	&_price{
+		.medium();
+		font-size: 1.9rem;
+		font-weight: 700;
+		margin-bottom: 3rem;
+		margin-top: -4rem;
+		&_red {
+			color: #b61919;
+		}
+	}
+	&_btn{
+		border-bottom: solid 3px #76ae0c;
+		font-size: 1.8rem;
+    padding: 2rem 2rem;
+		margin-bottom: 7.4rem;
+		margin-left: 1.6rem;
+	}
+	&_set-img{
+		height: 34rem;
+    margin-top: 11rem;
+    margin-left: -5rem;
+	}
+	&_panel{
+		font-size: 1.7rem;
+		margin-left: 28rem;
+		text-align: center;
+	}
+}
+
+.border-img{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.row_choice{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+}
+
+
+/* Секция с возможностями */
+.opportunities{
+		overflow: hidden;
+	position: relative;
+	margin-bottom: -0.5rem;
+}
+
+.tony {
+	margin-top: 9rem;
+	margin-left: 5rem;
+}
+
+.media-heading{
+	.medium();
+	font-size: 2.2rem;
+	font-weight: 700;
+}
+
+.media_text {
+	.roman();
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.media-wrap_movie{
+	margin-top: 18rem;
+}
+
+.media-wrap_world{
+	margin-top: 8rem;
+}
+
+.car {
+	margin-bottom: 7.5rem;
+	margin-top: -3rem;
+	margin-left: 3rem;
+}
+
+.ruby{
+	position: absolute;
+	left: 12rem;
+	top: 65rem;
+}
+
+.red-ruby{
+	position: absolute;
+	top: 20rem;
+	right: -3rem;
+}
+
+.film-media{
+	margin-top: -1rem;
+	margin-left: -3rem;
+}
+
+.world-media{
+	margin-top: -4rem;
+}
+
+
+
+/*Секция order*/
+.order{
+	background: url(../img/order/order-bg.jpg) center center no-repeat;
+	background-size: cover;
+	&_header{
+		color: #fff;
+		font-size: 3.2rem;
+		line-height: 1.3;
+		.black();
+		font-weight: 900;
+		margin-top: 8rem;
+	}
+}
+
+.arrow{
+	display:table;
+	width: 100%;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+
+.bg-arrow{
+	display: table-cell;
+	vertical-align: middle;
+	width: 40rem;
+	display: inline-block;
+	background-color: #18a7d0;
+	color: #fff;
+	.medium();
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	margin-top: -2rem;
+}
+.blue-arrow{
+	display: table-cell;
+	vertical-align: middle;
+	width: 0rem;
+	height: 0;
+	display: inline-block;
+	border-top: 31px solid transparent;
+	border-left: 23px solid #18a7d0;
+	border-bottom: 31px solid transparent;
+	margin-top: -2rem;
+}
+
+.media-wrap_watch, .media-wrap_bag{
+	margin-top: 4rem;
+}
+
+.media_heading_watch {
+	font-size: 1.5rem;
+	color: #fff;
+	.medium();
+	font-weight: 500;
+}
+
+.media_heading_bag{
+	font-size: 1.5rem;
+	color: #fff;
+	.medium();
+	font-weight: 500;
+	margin-top: 0.7em;
+}
+
+.media_body_bag {
+	padding-top: 0.7rem;
+}
+
+.order_second-row{
+	margin-top: -3rem;
+}
+
+.order_form_position{
+	margin-left: 9rem;
+}
+
+/* opportunities */
+.opportunities, .opportunities_next{
+	position: relative;
+}
+
+.sky{
+	margin-top: 5rem;
+	margin-left: 1rem;
+}
+
+.ball-block{
+	margin-top: -7rem;
+}
+
+.ruby-three{
+	position: absolute;
+	top: 62rem;
+	left: 5rem;
+}
+
+.opportunities_second-row{
+	margin-top: 8rem;
+}
+
+.ruby-four{
+	position: absolute;
+	top: 140rem;
+	right: 8rem;
+}
+
+.notebook{
+	height: 22rem;
+}
+
+
+
+
+/* Секция How*/
+.how{
+	background-color: @bg-light;
+	padding-top: 9rem;
+	padding-bottom: 6rem;
+	position: relative;
+	&:after{
+		content:'';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: inherit;
+		z-index: -1;
+		bottom: 0;
+		transform-origin: left bottom;
+    transform: skewY(3deg);
+	}
+}
+
+.how_header{
+	.black();
+	font-size: 3.5rem;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 0;
+}
+
+.how_hr{
+	width: 5.5rem;
+	height: 0.6rem;
+	background-color: @icon-color;
+	margin-bottom: 6rem;
+}
+
+.how_media_header{
+	margin-top: 6rem;
+	text-align: center;
+	.roman();
+	font-size: 1.5rem;
+}
+
+.circle{
+	display: block;
+	background-color: @icon-color;
+	border-radius: 50%;
+	color: #fff;
+	.bold();
+	font-size: 1.9rem;
+	width: 100%;
+	height: 100%;
+	&-border{
+		display: block;
+		margin: 0 auto;
+		padding: 0.3rem;
+		border: solid 2px @icon-color;
+		border-radius: 50%;
+		height: 5rem;
+		width: 5rem;
+		text-align: center;
+		line-height: 4rem;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 13rem;
+	}
+}
+
+.wrap_media{
+	position: relative;
+}
+
+.how_media_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.wrap-img{
+	min-height: 15rem;
+}
+
+
+/* Секцияя compatibility*/
+.compatibility{
+	position: relative;
+	padding-bottom: 7rem;
+	&_header{
+		.black();
+		font-size: 3.5rem;
+		font-weight: 900;
+		text-align-last: left;
+		margin-top: 11rem;
+	}
+	&_device-img{
+		display: block;
+		margin: 8rem auto 1.5rem;
+	}
+	&_device{
+		text-align: center;
+		.medium();
+		font-size: 2rem;
+		font-weight: 500;
+	}
+	&_glasses{
+		width: 49rem;
+		margin: 4rem 0 5rem 6rem;
+		&_text{
+			font-size: 2rem;
+			font-weight: 500;
+			.medium();
+			text-align: center;
+		}
+	}
+}
+
+.platform_img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 3rem;
+}
+
+
+/* Video */
+.video {
+	background: url(../img/video/video-bg.png)center center no-repeat;
+	background-size: cover;
+	&_header{
+		.black();
+		font-size: 3.5rem;
+		font-weight: 900;
+		text-align: center;
+		color: #fff;
+		margin-top: 7rem;
+	}
+	&_link{
+		text-align: center;
+		&:visited{
+			outline: none;
+			text-decoration: none;
+		}
+		&:hover{
+			text-decoration: none;
+		}
+		&_text{
+			display: block;
+			margin: 1rem	auto 10rem;
+			color: #fff;
+			font-size: 2rem;
+
+		}
+	}
+	&_img{
+		display: block;
+		margin: 2rem auto 0;
+
+	}
+}
+
+iframe{
+	border: none;
+}
+
+.video-wrap{
+	  width: 25%;
+    display: block;
+    margin: 0 auto;
+    &:active{
+    	outline: none;
+    	text-decoration: none;
+    }
+    &:focus{
+    	outline: none;
+    	text-decoration: none;
+    }
+    &:visited{
+    	outline: none;
+    	text-decoration: none;
+    }
+    &:hover{
+    	outline: none;
+    	text-decoration: none;
+    }
+}
+
+
+/* Game */
+.game{
+	background-color: @light;
+	&_header{
+		margin-top: 8rem;
+	}
+	&_icon{
+		margin-left: 50%;
+		transform: translateX(-50%);
+		margin-bottom: 3rem;
+	}
+	&_gadjets{
+		text-align: left;
+	}
+	&_img{
+		margin-left: -30%;
+	}
+	&_zombie{
+		margin-top: 2.8rem;
+	}
+	&_name{
+		margin-top: 3rem;
+	}
+	&_text{
+		font-size: 1.5rem;
+		.roman();
+	}
+	&_btn{
+		margin-left: 50%;
+		transform: translateX(-50%);
+		margin-top: 3rem;
+		margin-bottom: 7rem;
+		width: 30%;
+	}
+}
+
+.name_zombie{
+	margin-top: 1.5rem;
+}
+
+
+/* Feedback */
+.feedback{
+	background-color: @bg-light;
+	position: relative;
+	padding-bottom: 9rem;
+	&_header{
+		margin-top: 9rem;
+	}
+	&_wrap{
+		background-color: #fff;
+		border: solid #3eb7b7 2px;
+		border-radius: 2px;
+		padding: 3rem 2.7rem 5rem 2.7rem;
+		margin-bottom: 0.5rem;
+	}
+	&_user-name{
+		.medium();
+		font-size: 1.6rem;
+	}
+	&_body{
+		padding-top: 4rem;
+		padding-left: 1.5rem;
+	}
+	&_user-text{
+		font-size: 1.6rem;
+		.roman();
+		margin-top: 2rem;
+	}
+}
+
+#one, #three {
+	padding-right: 0.25rem;
+}
+
+#two, #four{
+	padding-left: 0.25rem;
+}
+
+.ruby-5{
+	position: absolute;
+	right: -2rem;
+	top: 110rem;
+}
+
+.bottom-border{
+	background: url(../img/what/boeder.png) repeat;
+	width: 100%;
+	height: 6px;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+}
+
+.top-border{
+	background: url(../img/what/boeder.png) repeat;
+	width: 100%;
+	height: 6px;
+	position: absolute;
+	top: 0;
+	margin: 0;
+}
+
+/* About */
+.about{
+	background-color: @bg-light;
+	padding-top: 13rem;
+	padding-bottom: 6rem;
+	position: relative;
+	&_img-one{
+		padding-top: 2rem;
+	}
+	&_img-two{
+		padding-top: 1rem;
+	}
+	&_text{
+		margin-top: 0;
+	}
+}
+
+/* order-two*/
+.order-two{
+	background: url(../img/order-two/bg-order-two.png) center center no-repeat;
+	background-size: cover;
+}
+
+.order-two_second-row{
+	margin-top: -5rem;
+}
+
+/* question */
+.question{
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	&_link{
+		color: #000;
+		border-bottom: 1px dashed #000;
+		.medium();
+		font-size: 1.7rem;
+		&:hover{
+			text-decoration: none;
+			color: #696969;
+		}
+	}
+}
+
+/* footer */
+.footer{
+	background-color: #000;
+}
+
+.footer-logo{
+	height: 5rem;
+	margin-top: 2rem;
+	margin-left: 4rem;
+}
+
+.footer_phone{
+	font-family: 'HelveticaNeueCyr_Bold', sans-serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+.footer_link {
+    color: #94ca2d;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 5.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптация под маленькие экраны */
+/* 1500px */
+@media (max-width: 3000px){
+	.feedback{
+		overflow: hidden;
+	}
+
+
+}
+
+/* 1200px */
+@media (max-width: 1200px){
+	.main_header {
+		margin-top: 6rem;
+	}
+
+
+.main_dino-img {
+	margin-left: -17rem;
+}
+
+.what_set-img{
+	height: 25rem;
+}
+
+.what_panel{
+	margin-left: 3rem;
+}
+
+.what_list{
+	min-height: 17rem;
+}
+
+
+
+
+
+
+
+.order_form_position{
+	margin-left: 0;
+}
+
+.sky{
+	margin-left: -3rem;
+}
+
+.compatibility_glasses{
+	width: 30rem;
+}
+
+.opportunities, .feedback{
+	overflow: hidden;
+}
+
+.footer_link{
+	display: block;
+	margin: 0 auto;
+}
+
+.header_link{
+	display: block;
+	margin: 0 auto;
+}
+}
+
+
+
+@media screen and (min-width: 991px) {
+    .mobile-visible {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .big-visible {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+		.what_btn{
+		display: block;
+		margin: 0 auto 6rem;
+	}
+
+	.what_set-img{
+		display: block;
+		margin: 0 auto;
+		height: 24rem;
+
+	}
+}
+
+
+/* 991px */
+@media (max-width: 991px){
+ .header_text {
+ 	font-size: 2.5rem;
+ 	line-height: 1;
+ }
+
+
+ .header {
+ 	height: 14rem;
+ }
+
+ .header_phone {
+ 	display: inline-block;
+ 	margin-left: 12rem;
+ 	font-size: 2rem;
+ }
+
+ .header_link, .header_phone{
+ 	display: inline-block;
+ 	margin: 1rem 7rem 0;
+ }
+
+ .main_header {
+ 	font-size: 3.5rem;
+ }
+
+ .main_btn {
+ 	margin: 4rem auto;
+ }
+
+ .main_glasses-img {
+ 	height: 15rem;
+ 	margin-top: 1rem;
+ }
+
+ .main_dino-img{
+ 		margin-top: -19rem;
+ 		margin-left: 37rem;
+		height: 25rem;
+ }
+
+ .what_panel{
+ 	margin-bottom: 5rem;
+ }
+
+
+
+
+
+
+ .what_btn{
+ 	display: block;
+ 	margin: 0 auto 6rem;
+ }
+
+ .tony{
+ 	display: block;
+ 	margin: 0 auto;
+ 	margin-top: 3rem;
+ }
+
+ .film-media{
+
+ 	display: block;
+ 	margin: -20rem auto 3rem;
+ }
+
+ .car{
+ 	display: block;
+ 	margin: 0 auto;
+ }
+
+ .world-media{
+ 	margin-bottom: 3rem;
+ }
+
+ .compatibility_header{
+ 	margin-bottom: 6rem;
+ 	text-align-last: center;
+ }
+
+ .compatibility_glasses{
+ 	display: block;
+ 	margin: 3rem auto;
+ }
+
+ .order_second-row{
+ 	margin-bottom: 3rem;
+ }
+ .order_form_position{
+ 	margin-left: 0;
+ }
+
+ .game_img{
+ 	display: block;
+ 	margin-left: 50%;
+ 	transform: translateX(-60%);
+ }
+
+ .platform_img{
+ 	display: block;
+ 	margin: 0 auto;
+ }
+
+ .compatibility_glasses_text{
+ 	margin-bottom: 3rem;
+ }
+
+ #one, #three{
+ 	padding-right: 1.5rem;
+ }
+
+ #two, #four{
+ 	padding-left: 1.5rem;
+ }
+
+ .about{
+ 	padding-top: 4rem;
+ }
+
+ .footer-logo{
+ 	height: 6rem;
+	margin-top: 1rem;	
+ }
+
+ .footer_link, .footer_phone{
+ 	text-align: center;
+ 	display: block;
+ }
+
+ .header{
+
+ }
+
+ footer{
+ 	height: 19rem;
+ }
+
+ .header_text{
+ 	line-height: 1.2;
+ }
+}
+
+
+/* 767px */
+@media (max-width: 767px){
+
+	.main {
+		overflow: hidden;
+	}
+	.logo {
+		margin-left: 0;
+	}
+
+	.header_text {
+		font-size: 2rem;
+	}
+
+	.header_link, .header_phone{
+		display: inline-block;
+		margin: 1rem 2rem 0;
+	}
+
+	.main_header, .main_action {
+		font-size: 2.2rem;
+	}
+
+	.main_glasses-img{
+		padding-left: 2rem;
+	}
+
+	.main_btn {
+    margin: 4rem 0;
+	}
+
+	.what_btn{
+		display: block;
+		margin: 0 auto;
+		margin-left: 5%;
+		margin-bottom: 4rem;
+	}
+
+	.what_set-img{
+		display: block;
+		margin: 0 auto;
+		height: 24rem;
+
+	}
+
+	.tony{
+		display: block;
+		margin: 3rem auto;
+		width: 30rem;
+
+	}
+
+	.opportunities{
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+
+
+
+	.car{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.world-media{
+		margin-bottom: 4rem;
+	}
+
+	.order_form_position {
+		margin-left: 0;
+	}
+
+	.compatibility_glasses{
+		width: 30rem;
+	}
+
+	.compatibility_header{
+		text-align-last: center;
+	}
+
+	.compatibility_glasses_text{
+		margin-bottom: 4rem;
+	}
+
+	.platform_img{
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.game_img{
+		display: block;
+		margin-left: 50%;
+		transform: translateX(-60%);
+	}
+
+	#one, #three{
+		padding-right: 1.5rem;
+	}
+
+	#two, #four{
+		padding-left: 1.5rem;
+	}
+
+	.media-wrap_movie{
+		margin-top: 3rem;
+	}
+
+	.film-media{
+		display: block;
+		margin-top: 4rem;
+	}
+
+	.footer-logo{
+		height: 4rem;
+		margin-top: 2rem;
+		margin-left: 4rem;
+	}
+
+	.footer_link, .footer_phone{
+		text-align: center;
+		display: block;
+	}
+
+	.list_one, .list_two{
+		display: inline-block;
+	}
+
+		.popup_call, .popup_glasses, .popup_question, .popup_equipment{
+		&-content{
+			width: 90%;
+		}
+	}
+}
+
+
+/* 538px */
+@media (max-width: 538px){
+	.car{
+		height: 16rem;
+	}
+
+		.list_one, .list_two{
+		display: inline-block;
+	}
+
+	.what_list{
+		font-size: 1.4rem;
+	}
+
+	.what_btn{
+		margin-left: 5%;
+	}
+
+}
+
+
+
+
+/* 480px */
+@media (max-width: 480px){
+
+	.main {
+		height: 45rem;
+		overflow: hidden;
+	}
+	.header {
+		height: 10rem;
+	}
+	.logo {
+		height: 3rem;
+		margin-top: -2rem;
+	}
+
+	.main_header,  {
+		font-size: 1.5rem;
+		margin-top: 3rem;
+		margin-bottom: 0;
+	}
+
+	.main_action{
+		font-size: 1.5rem;
+	}
+
+	.header_text{
+		line-height: 1.3rem;
+		font-size: 1rem;
+	}
+
+	.header_phone {
+		margin-left: 2rem;
+		font-size: 1.6rem;
+	}
+
+	.header_link {
+		margin-left: 1.7rem;
+		font-size: 1.5rem;
+	}
+
+	.main_btn {
+		font-size: 1rem;
+		padding: 1rem 0rem;
+		margin-top: 2rem;
+		width: 40%;
+	}
+
+	.main_glasses-img {
+    height: 8rem;
+    margin-top: -1rem;
+  }
+
+  .main_dino-img {
+  	height: 20rem;
+  	margin-top: -12rem;
+  	margin-left: 14rem;
+  }
+
+  .what_header{
+  	font-size: 2.5rem;
+  	margin-top: 3rem;
+  	margin-bottom: 1rem;
+  }
+
+  .what_description{
+  	font-size: 1.5rem;
+  }
+
+  .what_set-img{
+  	height: 18rem;
+  	margin-left: -2rem;
+  	margin-top: -1rem;
+  }
+
+  .what_panel{
+  	margin-left: 6rem;
+  }
+
+  .what_list{
+  	font-size: 1.4rem;
+  }
+
+  .what_price{
+  	margin-top: -7rem;
+  	font-size: 1.5rem;
+  }
+
+  .what_btn{
+  	font-size: 1rem;
+  	margin-bottom: 5rem;
+  	display: block;
+  	margin:0 auto;
+  	margin-bottom: 4rem;
+  	margin-left: 5%;
+  	&:active{
+  		outline: none;
+  	}
+  }
+
+  .tony{
+  	width: 20rem;
+  	margin-top: 5rem;
+  	margin-left: 7rem;
+  	display: block;
+  	margin: 0 auto;
+  	margin-top: 3rem;
+  }
+	.media-heading{
+		font-size: 1.4rem;
+	}
+
+	.media-wrap_movie{
+		margin-top: 0;
+	}
+
+	.media_text{
+		font-size: 1.3rem;
+	}
+
+	.car{
+
+		margin-top: 0;
+		display: block;
+  	margin: 0 auto;
+	}
+
+	.world-media{
+		margin-top: -5rem;
+		margin-bottom: 5rem;
+	}
+
+	.order_header{
+		font-size: 1.8rem;
+		margin-top: 3rem;
+		text-align: center;
+	}
+
+	.bg-arrow{
+		font-size: 1rem;
+		width: 25rem;
+	}
+
+	.order_form_position{
+		margin-left: 0rem;
+		padding: 1.2rem;
+	}
+
+	.order_form{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.order-form h3{
+		font-size: 1.5rem;
+		margin-top: 0;
+	}
+
+	.order-form input{
+		padding: 1rem 1rem;
+	}
+
+	.order-form button{
+		font-size: 1.1rem;
+	}
+
+	.order-form p{
+		font-size: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.media_heading_watch{
+		font-size: 0.9rem;
+	}
+
+	.media_heading_bag{
+		font-size: 0.9rem;
+	}
+	
+
+	.media_body_bag {
+		padding-top: 0rem;
+	}
+
+	.order_second-row{
+		margin-bottom: 2rem;
+	}
+
+	.how_header{
+		font-size: 3rem;
+	}
+
+	.how{
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+	}
+
+	.how_hr{
+		margin-top: 1rem;
+	}
+
+	.how_media_img{
+		height: 10rem;
+	}
+
+	.img-glasses{
+		height: 6rem;
+		margin-top: 2rem;
+	}
+
+	.circle-border{
+		height: 4rem;
+		width: 4rem;
+		line-height: 3rem;
+	}
+
+	.how_media_header {
+		font-size: 1.2rem;
+		margin-top: 0;
+	}
+
+	.circle-border{
+		top: 8rem;
+	}
+
+	.circle_glasses{
+		top: 6rem;
+	}
+
+	.wrap-img{
+		min-height: 13rem;
+	}
+
+	.wrap_glasses{
+		min-height: 11rem;
+	}
+
+	.compatibility_header{
+		font-size: 2.3rem;
+		text-align-last: center;
+		margin-top: 5rem;
+		margin-bottom: 3rem;
+	}
+
+	.compatibility_glasses{
+		width: 28rem;
+		margin-left: 2rem;
+		margin-top: 3rem;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 4rem;
+	}
+
+	.compatibility_glasses_text{
+		text-align: left;
+		font-size: 1.6rem;
+		margin-bottom: 3rem;
+	}
+
+	.platform_img{
+		height: 16rem;
+		margin-top: 3rem;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.video_header{
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+
+	.video_img{
+		width: 5rem;
+	}
+
+	.video_link_text{
+		font-size: 1rem;
+		margin-bottom: 7rem;
+	}
+
+	.game_header{
+		font-size: 1.6rem;
+		margin-top: 3rem;
+	}
+
+	.game_img{
+		width: 26rem;
+		display: block;
+		margin-left: 50%;
+		transform: translateX(-60%);
+
+	}
+
+	.game_text{
+		font-size: 1.2rem;
+		margin-left: 2rem;
+	}
+
+	.game_name{
+		margin-left: 2rem;
+	}
+
+	.game_btn{
+		font-size: 0.9rem;
+		width: 65%;
+	}
+
+	#one, #three{
+		padding-right: 1.5rem;
+	}
+
+	#two, #four{
+	padding-left: 1.5rem;
+	}
+
+	.media-object{
+		width: 5rem;
+	}
+	
+	.feedback_body{
+		padding-top: 1rem;
+	}
+
+	.feedback_user-text{
+		font-size: 1rem;
+	}
+
+	.feedback_wrap{
+		padding-bottom: 2rem;
+	}
+
+	.feedback{
+		padding-bottom: 4rem;
+	}
+
+	.about{
+		padding-top: 3rem;
+	}
+
+	.about_header{
+		font-size: 2rem;
+	}
+
+	.question_header{
+		font-size: 2rem;
+	}
+
+	.question_link{
+		font-size: 1.2rem;
+	}
+
+	footer{
+		padding-top: 2rem;
+	}
+
+ .footer_link, .footer_phone{
+font-size: 1.5rem;
+ }
+
+	.fluid_footer{
+		height: 100%;
+	}
+
+	.footer-logo{
+		height: 3rem;
+		margin-top: 1.7rem;
+		margin-left: 1rem;
+	}
+
+}
+
+/* 391px */
+@media (min-width: 319px) and (max-width: 391px){
+	.what_btn{
+		font-size: 0.7rem;
+	}
+}
+
+/* 480 */
+@media (min-width: 480px) and (max-width: 625px){
+	.what_btn{
+		font-size: 1.3rem;
+	}
+}
+
+/* 359px */
+@media (max-width: 359px){
+
+	.header_phone{
+		font-size: 1.3rem;
+	}
+
+	.header_link{
+		font-size: 1.2rem;
+	}
+
+	.car{
+		height: 12rem;
+	}
+
+	.popup_call, .popup_glasses, .popup_question, .popup_equipment{
+		&-content{
+			width: 90%;
+		}
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Модальные окна */
+/* Заказать звонок */
+.popup_call, .popup_glasses, .popup_question, .popup_equipment {
+	display:none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+	&-content{
+		position: fixed;
+		left: 50%;
+		top: 18%;
+		transform: translateX(-50%);
+	}
+	&-close {
+		margin-top: -0.5rem;
+		border: none;
+		color: #21a3af;
+		background-color: transparent;
+		font-size: 3rem;
+		font-weight: 900;
+
+		&:active{
+			outline: none;
+		}
+	}
+
+	.border_close-btn{
+		position: absolute;
+		top: 1rem;
+		right: -1rem;
+		border: 3px solid #21a3af;
+		width: 3rem;
+		height: 3rem;
+		border-radius: 50%;
+		background-color: #000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+
+
+
+
+
+/* Видео */
+.popup_video {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+	&-content{
+		position: fixed;
+		left: 50%;
+		top: 18%;
+		transform: translateX(-50%);
+	}
+	&-close {
+		position: absolute;
+		top: -1.3rem;
+		left: 0.3rem;
+		border: none;
+		text-align: center;
+		color: #21a3af;
+		background-color: transparent;
+		font-size: 3rem;
+		font-weight: 900;
+		padding: 0;
+		&:active{
+			outline: none;
+		}
+	}
+
+	.border_close-btn{
+		position: absolute;
+		top: 1rem;
+		right: -1rem;
+		border: 3px solid #21a3af;
+		width: 3rem;
+		height: 3rem;
+		border-radius: 50%;
+		background-color: #000;
+	}
+}
+
+
+.popup-btn{
+	&:hover, &:visited, &:focus, &:active{
+		text-decoration: none;
+		outline: none;
+	}
+}
+
+
+
+
+
+
+
+
+
