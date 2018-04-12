@@ -1,7 +1,7 @@
 # Владимир Мешков
 Мои домашние задания
 
-[Урок 1](https://github.com/VmeshkoV/VmeshkoV.github.io/blob/master/sale/index.html "пройден первый тест") - пройден первый тест
+[Тестовая верстка](https://vmeshkov.github.io/sale/ "Тест Poznan") - Тест 
 
 [Урок 2](https://vmeshkov.github.io/lesson_2/ "создал директорию и настроил Sublime") - создал директорию и настроил Sublime
 
