@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Городская распродажа</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+<!--  Main  -->
+<section class="main">
+	<div class="container">
+		<div class="row">
+			<!-- Логотип на средних экранах -->
+			<div class="col-md-2 col-sm-2 hidden-lg hidden-md hidden-xs main_center">
+				<img class="main_logo" src="img/main/logo.png" alt="logo">
+			</div>
+
+			<div class="col-md-3 col-xs-12 col-sm-4 main_center">
+				<p class="main_text">Импортно-экспортная компания</p>
+			</div>
+
+			<div class="col-md-2 hidden-xs hidden-sm main_center">
+				<img class="main_decorline main_decorline_left" src="img/main/decorline.png" alt="decorline">
+			</div>
+			
+			<!-- Логотип на больших экранах и мобильных устройствах -->
+			<div class="col-md-2 col-sm-2 hidden-sm main_center">
+				<img class="main_logo" src="img/main/logo.png" alt="logo">
+			</div>
+
+			<div class="col-md-2 hidden-xs hidden-sm main_center">
+				<img class="main_decorline main_decorline_right" src="img/main/decorline.png" alt="decorline">
+			</div>
+
+			<div class="col-md-1 col-xs-12 col-sm-3 main_center">
+				<p class="main_phone">8 (916) 996-25-03</p>
+			</div>
+
+			<div class="col-md-2 col-sm-2 main_center">
+				<button class="main_button" data-toggle="modal" data-target="#call">Заказать звонок</button>
+			</div>
+		</div><!-- row -->
+
+		<div class="row">
+			<div class="main_menu_wrap" id="menu">
+				<ul class="main_list">
+					<li class="main_list_item"><a class="main_link" href="#about">О компании</a></li>
+					<li class="main_list_item"><a class="main_link" href="#amenities">Услуги</a></li>
+					<li class="main_list_item"><a class="main_link" href="#news">Новости</a></li>
+					<li class="main_list_item"><a class="main_link" href="#calc">Калькулятор</a></li>
+					<li class="main_list_item"><a class="main_link" href="#contacts">Контакты</a></li>
+				</ul>
+			</div>
+		</div> <!-- row -->
+
+		<div class="row hidden-xs">
+			<div class="slider">
+			  <div>
+			  	<h1 class="main_slider_header">Грузы из Китая <br> с компанией "BTG"</h1>
+			  	<p class="main_slider_text">
+			  		Экспорт и импорт грузов любым видом транспорта. <br>Без переплат и точно в срок!
+			  	</p>
+			  	<button class="main_slider_buttom" data-toggle="modal" data-target="#call">Быстрая заявка</button>
+			  </div>
+
+			  <div>
+			  	<h1 class="main_slider_header">
+			  		Надежная и безопасная <br> перевозка со страховкой
+			  	</h1>
+			  	<p class="main_slider_text">
+			  		Весь груз страхуется <br>в страховой компании - партнере.
+			  	</p>
+			  	<button class="main_slider_buttom" data-toggle="modal" data-target="#call">Быстрая заявка</button>
+			  </div>
+
+			  <div>
+			  	<h1 class="main_slider_header">Доставка по всему миру <br> с компанией "BTG"</h1>
+			  	<p class="main_slider_text">
+			  		Контейнерные перевозки. <br> Доставка сборных грузов.
+			  	</p>
+			  	<button class="main_slider_buttom" data-toggle="modal" data-target="#call">Быстрая заявка</button>
+			  </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--  Amenities  -->
+<section class="amenities" id="amenities">
+	<div class="container">
+		<div class="amenities_wrap">
+			<div class="row">
+				<h2 class="header">наши услуги</h2>
+			</div>
+
+			<!-- Виден на мобильных и больших экранах -->
+			<div class="row amenities_row_one">
+				<div class="col-md-4 hidden-sm">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgOne').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgOne').src='img/amenities/map.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgOne" class="media-object amenities_img" src="img/amenities/map.png" alt="map">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Международные<br> грузоперевозки</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-sm ">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgTwo').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgTwo').src='img/amenities/box.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgTwo" class="media-object amenities_img" src="img/amenities/box.png" alt="box">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Доставка<br> грузов из Китая</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-sm">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgThree').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgThree').src='img/amenities/lock.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgThree" class="media-object amenities_img" src="img/amenities/lock.png" alt="lock">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Таможенное<br> оформление</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+			</div> <!-- row -->
+
+			<div class="row">
+				<div class="col-md-4 hidden-sm">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgFour').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgFour').src='img/amenities/container.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgFour" class="media-object amenities_img" src="img/amenities/container.png" alt="container">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Контейнерные<br> перевозки</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-sm">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgFive').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgFive').src='img/amenities/wood.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgFive" class="media-object amenities_img" src="img/amenities/wood.png" alt="wood">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Доставка<br> сборных грузов</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-sm">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgSix').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgSix').src='img/amenities/calc.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgSix" class="media-object amenities_img" src="img/amenities/calc.png" alt="calc">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Финансирование<br> поставок</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+			</div> <!-- row -->
+
+			<!-- Виден на средних экранах -->
+			<div class="row amenities_row_one">
+				<div class="col-md-4 hidden-lg hidden-md hidden-xs col-sm-6">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgOne').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgOne').src='img/amenities/map.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgOne" class="media-object amenities_img" src="img/amenities/map.png" alt="map">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Международные<br> грузоперевозки</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-lg hidden-md hidden-xs col-sm-6 ">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgTwo').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgTwo').src='img/amenities/box.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgTwo" class="media-object amenities_img" src="img/amenities/box.png" alt="box">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Доставка<br> грузов из Китая</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-lg hidden-md hidden-xs col-sm-6">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgThree').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgThree').src='img/amenities/lock.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgThree" class="media-object amenities_img" src="img/amenities/lock.png" alt="lock">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Таможенное<br> оформление</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+	
+				<div class="col-md-4 hidden-lg hidden-md hidden-xs col-sm-6">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgFour').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgFour').src='img/amenities/container.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgFour" class="media-object amenities_img" src="img/amenities/container.png" alt="container">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Контейнерные<br> перевозки</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-lg hidden-md hidden-xs col-sm-6">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgFive').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgFive').src='img/amenities/wood.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgFive" class="media-object amenities_img" src="img/amenities/wood.png" alt="wood">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Доставка<br> сборных грузов</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4 hidden-lg hidden-md hidden-xs col-sm-6">
+					<div class="amenities_block" 
+						onmouseover="document.getElementById('imgSix').src='img/amenities/services.png';" 
+						onmouseout="document.getElementById('imgSix').src='img/amenities/calc.png';">
+						<div class="media">
+						  <div class="media-left">
+						      <img id="imgSix" class="media-object amenities_img" src="img/amenities/calc.png" alt="calc">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Финансирование<br> поставок</h4>
+						  </div>
+						</div>
+							<button class="amenities_btn" data-toggle="modal" data-target="#call">Подробнее</button>
+					</div>	
+				</div>
+			</div> <!-- row -->
+		</div>
+	</div>
+</section>
+
+<!-- Description -->
+<section class="description" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-xs-12 col-sm-6 description_img"></div>
+			<div class="col-md-5 col-xs-12 col-sm-6">
+				<div class="description_text_wrap">
+					<h2 class="description_header">"btg" - buisness trans group</h2>
+					<p class="description_subtitle">Международная компания</p>
+					<p class="description_text">
+						Идейные соображения выслешго порядка, а также начало повседневной работы
+						по формированию позиции влечет за собой процесс внедрения и модернизации систем
+						массового участия. Постоянное информационное обеспечение нашей деятельности способствует подготовки и реализации существенных финансовых и административных условий.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- News -->
+<section class="news" id="news">
+	<div class="container">
+		<div class="row">
+			<h2 class="header">новости</h2>
+		</div>
+
+		<div class="row news_row">
+			<div class="col-md-3 col-sm-3">
+				<div class="news_wrap">
+					<img class="news_img" src="img/news/car.jpg" alt="car">
+					<p class="news_name">Расширение <br> автопарка компании</p>
+					<p class="news_date">15.09.16</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-3">
+				<div class="news_wrap">
+					<img class="news_img" src="img/news/containers.jpg" alt="containers">
+					<p class="news_name">Покупка <br> новых кранов</p>
+					<p class="news_date">21.10.16</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-3">
+				<div class="news_wrap">
+					<img class="news_img" src="img/news/air.jpg" alt="air">
+					<p class="news_name">Заключение договоров <br> с воздушными перевозчиками</p>
+					<p class="news_date">03.11.16</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-3">
+				<div class="news_wrap">
+					<img class="news_img" src="img/news/sea.jpg" alt="sea">
+					<p class="news_name">Открытие <br> нового направления поставок</p>
+					<p class="news_date">07.02.17</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Export -->
+<section class="export hidden-xs">
+	<div class="container">
+		<div class="row">
+			<h1 class="export_header">Работаем с экспортом<br> и импортом по всему миру</h1>
+			<p class="export_text">
+				Наши специалисты помогут вам доставить <br>грузы в любую точку мира
+			</p>
+		</div>
+		<div class="row export_row">
+			<button class="export_buttom" data-toggle="modal" data-target="#call">Быстрая заявка</button>
+		</div>
+	</div>
+</section>
+
+<!-- Our partners -->
+<section class="partners">
+	<div class="container">
+		<div class="row">
+			<h2 class="header">наши партнеры</h2>
+		</div>
+
+		<div class="row">
+			<div class="partners_wrap">
+				<div class="partners_label"><img src="img/partners/canon.png" alt="canon"></div>
+				<div class="partners_label"><img src="img/partners/Dell-Logo.jpg" alt="dell"></div>
+				<div class="partners_label"><img src="img/partners/logo_philips.jpg" alt="hp"></div>
+				<div class="partners_label"><img src="img/partners/samsung-logo.png" alt="canon"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Form -->
+<section class="form" id="calc">
+	<div class="container">
+		<div class="row">
+			<h2 class="form_header">запрос на услуги</h2>
+		</div>
+
+		<div class="row">
+			<form action="mailer/smart.php" class="client_form">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2 col-sm-6">
+						<input class="form_input form_from" type="text" placeholder="Откуда" required>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<input class="form_input form_to" type="text" placeholder="Куда" required>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2 col-sm-6">
+						<input class="form_input" type="text" placeholder="Как Вас зовут?" required>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<input class="form_input phone-mask" type="text" placeholder="Номер телефона" required>
+					</div>
+				</div>
+
+				<div class="row">
+					<button class="form_btn" data-toggle="modal" data-target="#myModal">Получить расчет</button>
+					<p class="form_warning">Нажав кнопку "Получить расчет" вы даете свое согласие на обработку персональных данных</p>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" id="contacts">
+	<div class="container">
+		<div class="row footer_row">
+			<div class="footer_wrap_img">
+				<a href="#"><img src="img/footer/footerlogo.png" alt="logo"></a>
+			</div>
+
+			<div class="footer_menu" id="footer">
+				<a class="footer_li" href="#about">О компании</a>
+				<a class="footer_li" href="#amenities">Услуги</a>
+				<a class="footer_li" href="#news">Новости</a>
+				<a class="footer_li" href="#calc">Калькулятор</a>
+				<a class="footer_li" href="#contacts">Контакты</a>
+			</div>
+
+			<div class="footer_link">
+				<p class="footer_info">Верстка сайта: <a href="https://vk.com/meshkov1990">Владимир Мешков</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+<!-- Модальное окно Получить расчет -->
+<div class="popup" id="myModal">
+  <!-- Само (белое) окно-->
+  <div class="popup-dialog popup-order">
+    <!-- Содержимое модального окна-->
+    <div class="popup-content">
+    	<button class="popup-close" data-dismiss="modal"><img src="img/main/close.png"></button>
+			<form action="mailer/smart.php" class="client_form">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-md-offset-2">
+						<input class="form_input form_from" type="text" placeholder="Откуда" required>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<input class="form_input form_to" type="text" placeholder="Куда" required>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-md-offset-2">
+						<input class="form_input" type="text" placeholder="Как Вас зовут?" required>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<input class="form_input phone-mask" type="text" placeholder="Номер телефона" required>
+					</div>
+				</div>
+
+				<div class="row">
+					<button class="form_btn">Получить расчет</button>
+					<p class="form_warning">Нажав кнопку "Получить расчет" вы даете свое согласие на обработку персональных данных</p>
+				</div>
+			</form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Модальное окно заказать звонок -->
+<div class="popup" id="call">
+  <!-- Само (белое) окно-->
+  <div class="popup-dialog popup-call">
+    <!-- Содержимое модального окна-->
+    <div class="popup-content">
+    	<button class="popup-close" data-dismiss="modal"><img src="img/main/close.png"></button>
+			<form action="mailer/smart.php" class="client_form">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-md-offset-2">
+						<input class="form_input" type="text" placeholder="Как Вас зовут?" required>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<input class="form_input phone-mask" type="text" placeholder="Номер телефона" required>
+					</div>
+				</div>
+
+				<div class="row">
+					<button class="form_btn">Заказать звонок</button>
+					<p class="form_warning">Нажав кнопку "Заказать звонок" <br> вы даете свое согласие на обработку персональных данных</p>
+				</div>
+			</form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Подключаем стили -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Slick Slider -->
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
+<script src="slick/slick.min.js"></script>
+
+<!-- Инициализируем слайдер -->
+<script>
+	$(document).ready(function(){
+	  $('.slider').slick({
+	   	speed: 300,
+	   	dots: true,
+	   	dotsClass: "my-dots",
+	   	prevArrow: '<button class="prev"></button>',
+	   	nextArrow: '<button class="next"></button>'
+	  })
+	});
+</script>
+
+<!-- Плавная прокрутка по ссылкам -->
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu, #footer").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
+});
+</script>
+
+<!-- Добавляем маску телефона к формам -->
+<script src="js/jquery.maskedinput.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".phone-mask").mask("+7(999) 999-9999");
+  })
+</script>
+
+
+</body>
+</html>
+
