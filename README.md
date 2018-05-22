@@ -15,6 +15,8 @@ Repository for examples of my work
 
 [Штукатурка гипслолит](https://VmeshkoV.github.io/Gipsolite/ "Гипсолит"): Учебный сайт "Штукатурка Гипсолит"
 
+[Тестовое задание](https://VmeshkoV.github.io/test/ "Тестовое задание"): Тестовое задание
+
 
 
 
