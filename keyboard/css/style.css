@@ -1,0 +1,450 @@
+@font-face {
+  font-family: 'San Francisco Text Light';
+  src: url('../fonts/SFUIText-Light.eot');
+  src: url('../fonts/SFUIText-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/SFUIText-Light.woff') format('woff'), url('../fonts/SFUIText-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.keyboard {
+  position: relative;
+  margin: 100px auto 0;
+  padding-top: 8px;
+  width: 990px;
+  height: 269px;
+  border-radius: 10px;
+}
+.gradient {
+  background-color: #c0c1c5;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjY2RjZWQyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNiM2I0YjgiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+  /* Android 2.3 */
+  /* IE10+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cdced2), to(#b3b4b8));
+  background-image: linear-gradient(to bottom, #cdced2 0%, #b3b4b8 100%);
+  background-image: -ms-linear-gradient(top, #cdced2 0%, #b3b4b8 100%);
+}
+.key {
+  display: inline-block;
+  border: solid 1px #4a4b4f;
+  border-radius: 4px;
+  margin-right: 1px;
+  padding-left: 5px;
+  width: 39px;
+  height: 38px;
+  font-family: 'San Francisco Text Light';
+  font-size: 10px;
+  color: #9c9c9e;
+  background-color: #f5f6f8;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZWJlY2YwIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+  /* Android 2.3 */
+  /* IE10+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ebecf0), to(#ffffff));
+  background-image: linear-gradient(to bottom, #ebecf0 0%, #ffffff 100%);
+  background-image: -ms-linear-gradient(top, #ebecf0 0%, #ffffff 100%);
+}
+.first-row {
+  margin-left: 8px;
+}
+.esc {
+  position: relative;
+  width: 61px;
+  padding-top: 17px;
+}
+.esc p {
+  position: absolute;
+  bottom: -5px;
+}
+.arrow-up {
+  margin-right: 18px;
+}
+.f-15 {
+  margin-right: 18px;
+}
+.second-row {
+  margin-left: 8px;
+}
+.second-key {
+  position: relative;
+  top: -7px;
+}
+.up-key {
+  margin-left: 11.5px;
+  margin-top: 4px;
+  font-size: 11px;
+}
+.down {
+  margin-left: 10.5px;
+  margin-top: -8px;
+  font-size: 11px;
+}
+.til-key {
+  position: relative;
+  top: -8px;
+}
+.til {
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 11px;
+}
+.dot {
+  margin-left: 10px;
+  margin-top: -8px;
+  font-size: 11px;
+}
+.dog {
+  margin-left: 8px;
+}
+.down-2 {
+  margin-left: 10px;
+}
+.sharp {
+  margin-left: 9.5px;
+}
+.down-3 {
+  margin-left: 10px;
+}
+.dollar {
+  margin-left: 9px;
+}
+.down-4 {
+  margin-left: 9px;
+}
+.percent {
+  margin-left: 9px;
+}
+.down-4 {
+  margin-left: 9px;
+}
+.ar-up {
+  margin-left: 10.5px;
+}
+.down-6 {
+  margin-left: 10px;
+}
+.and {
+  margin-left: 9.5px;
+}
+.down-7 {
+  margin-left: 10px;
+}
+.star {
+  margin-left: 10.5px;
+}
+.down-8 {
+  margin-left: 10px;
+}
+.bracket-left {
+  margin-left: 11px;
+}
+.bracket-right {
+  margin-left: 12px;
+}
+.down-9 {
+  margin-left: 10px;
+}
+.long {
+  margin-left: 8px;
+}
+.plus {
+  margin-left: 10px;
+}
+.equally {
+  margin-left: 10px;
+}
+.del {
+  position: relative;
+  padding-top: 17px;
+  width: 61px;
+  margin-right: 18px;
+}
+.delete {
+  font-size: 10px;
+  margin-left: 20px;
+  position: absolute;
+  bottom: -6px;
+}
+.fn-key {
+  position: relative;
+  top: -16px;
+}
+.fn {
+  margin-left: 8.5px;
+  margin-top: 11px;
+}
+.home-key {
+  position: relative;
+  top: -16px;
+}
+.home {
+  margin-left: 0.5px;
+  margin-top: 11px;
+}
+.page-up-key {
+  position: relative;
+  top: -9px;
+  text-align: center;
+}
+.page-up {
+  margin-left: -5px;
+  margin-top: 6px;
+}
+.clear-key {
+  position: relative;
+  top: -16px;
+}
+.clear {
+  margin-left: 2px;
+  margin-top: 11px;
+}
+.equal-key {
+  position: relative;
+  top: -16px;
+}
+.equal {
+  margin-left: 9.5px;
+  margin-top: 11px;
+}
+.division-key {
+  position: relative;
+  top: -16px;
+}
+.division {
+  margin-left: 11.5px;
+  margin-top: 11px;
+}
+.multiply-key {
+  position: relative;
+  top: -14px;
+}
+.multiply {
+  margin-left: 10.5px;
+  margin-top: 13.5px;
+}
+.third-row {
+  margin-left: 8px;
+}
+.tab-key {
+  position: relative;
+  top: -12px;
+}
+.q-key {
+  position: relative;
+  top: -27px;
+}
+.q {
+  margin-left: 9.5px;
+  margin-top: 12px;
+}
+.w {
+  margin-left: 8.5px;
+  margin-top: 12px;
+}
+.e {
+  margin-left: 10.5px;
+  margin-top: 12px;
+}
+.t {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.y {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.i {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.p {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.left-figure-key {
+  position: relative;
+  top: -20px;
+  line-height: 1.5;
+}
+.figure {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.figure-two {
+  margin-left: 11px;
+  margin-top: 3px;
+}
+.del-key {
+  position: relative;
+  top: -28px;
+}
+.delete-two {
+  margin-left: -1px;
+  margin-top: 11px;
+}
+.end-key {
+  position: relative;
+  top: -28px;
+}
+.end {
+  margin-left: 5px;
+  margin-top: 11px;
+}
+.page-down-key {
+  position: relative;
+  top: -21px;
+}
+.page-down {
+  margin-left: 1px;
+  margin-top: 6px;
+}
+.seven-key {
+  position: relative;
+  top: -28px;
+}
+.seven {
+  margin-left: 10px;
+  margin-top: 11px;
+}
+.minus {
+  margin-left: 11px;
+  margin-top: 11px;
+}
+.fourth-row {
+  margin-left: 8px;
+  margin-top: -17px;
+}
+.caps-key {
+  position: relative;
+  top: -7px;
+}
+.circle {
+  width: 3px;
+  height: 3px;
+  margin-top: 7px;
+  margin-left: 1px;
+  border-radius: 50%;
+  background-color: #787679;
+}
+.caps-two {
+  margin-top: 10px;
+}
+.a-key {
+  position: relative;
+  top: -15px;
+}
+.f-key {
+  position: relative;
+  top: -15px;
+}
+.f {
+  margin-top: 12px;
+  margin-left: 10.5px;
+}
+.line {
+  width: 7px;
+  height: 2px;
+  background-color: #e4e5e7;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.dotted {
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.dotted-key {
+  position: relative;
+  top: -10px;
+}
+.commas-key {
+  position: relative;
+  top: -8px;
+}
+.commas {
+  margin-left: 11px;
+  margin-top: 7px;
+}
+.return-key {
+  position: relative;
+  top: -8px;
+}
+.ret {
+  margin-left: 32px;
+  margin-top: 19px;
+}
+.four-key {
+  position: relative;
+  top: -15px;
+  margin-left: 1px;
+}
+.six-key {
+  position: relative;
+  top: -15px;
+}
+.four {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.plus-left {
+  margin-left: 10px;
+  margin-top: 11px;
+}
+.plus-left-key {
+  position: relative;
+  top: -16px;
+}
+.return {
+  width: 72px;
+  margin-right: 166px;
+}
+.caps {
+  width: 72px;
+}
+.fifth-row {
+  margin-left: 8px;
+}
+.shift {
+  width: 94px;
+}
+.up {
+  margin-left: 61px;
+  margin-right: 61px;
+}
+.enter {
+  position: absolute;
+  right: 9px;
+  height: 81px;
+}
+.last-row {
+  margin-left: 8px;
+}
+.ctrl {
+  width: 61px;
+}
+.option {
+  width: 49px;
+}
+.command {
+  width: 62px;
+}
+.space {
+  width: 258px;
+}
+.ctrl-right {
+  width: 62px;
+  margin-right: 18px;
+}
+.right {
+  margin-right: 16px;
+}
+.zero {
+  width: 83px;
+}
