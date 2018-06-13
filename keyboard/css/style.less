@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
 font-family: 'San Francisco Text Light';
 src: url('../fonts/SFUIText-Light.eot');
@@ -952,3 +953,791 @@ color:rgb(87,86,92);
 	margin-left: 12px;
 	margin-top: 11px;
 }
+=======
+@font-face {
+font-family: 'San Francisco Text Light';
+src: url('../fonts/SFUIText-Light.eot');
+src: url('../fonts/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/SFUIText-Light.woff') format('woff'),
+url('../fonts/SFUIText-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.keyboard	{
+	position: relative;
+	margin: 100px auto 0;
+	padding-top: 6.5px;
+	width: 990px;
+	height: 262px;
+	border-radius: 10px;
+}
+
+.gradient {
+    background-color: #c0c1c5;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjY2RjZWQyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNiM2I0YjgiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(205, 206, 210)),color-stop(1, rgb(179, 180, 184)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(top,rgb(205, 206, 210) 0%,rgb(179, 180, 184) 100%);
+    /* IE10+ */
+    background-image: linear-gradient(to bottom,rgb(205, 206, 210) 0%,rgb(179, 180, 184) 100%);
+    background-image: -ms-linear-gradient(top,rgb(205, 206, 210) 0%,rgb(179, 180, 184) 100%);
+}
+
+
+.key {
+	display: inline-block;
+	border: solid 1px #4a4b4f;
+	border-radius: 4px;
+	margin-right: 1px;
+	padding-left: 5px;
+	width: 39px;
+	height: 38px;
+	font-family: 'San Francisco Text Light';
+	font-size: 10px;
+	color: #9c9c9e;
+	background-color: #f5f6f8;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZWJlY2YwIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(235, 236, 240)),color-stop(1, rgb(255, 255, 255)));
+  /* Android 2.3 */
+  background-image: -webkit-linear-gradient(top,rgb(235, 236, 240) 0%,rgb(255, 255, 255) 100%);
+  /* IE10+ */
+  background-image: linear-gradient(to bottom,rgb(235, 236, 240) 0%,rgb(255, 255, 255) 100%);
+  background-image: -ms-linear-gradient(top,rgb(235, 236, 240) 0%,rgb(255, 255, 255) 100%)
+}
+
+
+
+
+.first-row {
+	margin-left: 8px;
+}
+
+.esc {
+	position: relative;
+	width: 61px;
+	padding-top: 17px;
+	p {
+		position: absolute;
+		bottom: -5px;
+	}
+}
+
+.nav{
+	margin-left: 8px;
+	margin-top: 12px;
+}
+
+.nav-two{
+	margin-left: 5px;
+	margin-top: 12px;
+}
+
+.up-img{
+	width: 8px;
+	height: 8px;
+	margin-left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+.arrow-up{
+	margin-right: 18px;
+}
+
+.f-15 {
+	margin-right: 18px;
+}
+
+.second-row {
+	margin-left: 8px;
+	margin-top: -10px;
+}
+.second-key{
+	position: relative;
+	top: -7px;
+}
+
+.up-key{
+	margin-left: 11.5px;
+	margin-top: 4px;
+	font-size: 11px;
+}
+
+.down{
+	margin-left: 10.5px;
+	margin-top: -8px;
+	font-size: 11px;
+}
+
+.til-key{
+	position: relative;
+	top: -8px;
+}
+
+.til {
+	margin-left: 10px;
+	margin-top: 3px;
+	font-size: 11px;
+}
+
+.dot{
+	margin-left: 10px;
+	margin-top: -8px;
+	font-size: 11px;
+}
+
+.dog{
+	margin-left: 8px;
+}
+
+.down-2{
+	margin-left: 10px;
+}
+.sharp{
+	margin-left: 9.5px;
+}
+
+.down-3{
+	margin-left: 10px;
+}
+
+.dollar{
+	margin-left: 9px;
+}
+
+.down-4{
+	margin-left: 9px;
+}
+
+.percent{
+	margin-left: 9px;
+}
+
+.down-4{
+	margin-left: 9px;
+}
+
+.ar-up{
+	margin-left: 10.5px;
+}
+
+.down-6{
+	margin-left: 10px;
+}
+
+.and{
+	margin-left: 9.5px;
+}
+
+.down-7{
+	margin-left: 10px;
+}
+
+.star{
+	margin-left: 10.5px;
+}
+
+.down-8{
+	margin-left: 10px;
+}
+
+.bracket-left{
+	margin-left: 11px;
+}
+
+.bracket-right{
+	margin-left: 12px;
+}
+
+.down-9{
+	margin-left: 10px;
+}
+
+.long{
+	margin-left: 8px;
+}
+
+.plus{
+	margin-left: 10px;
+}
+
+.equally{
+	margin-left: 10px;
+}
+
+.del {
+	position: relative;
+	padding-top: 17px;
+	width: 61px;
+	margin-right: 18px;
+	top: -1px;
+}
+
+.delete{
+	font-size: 10px;
+	margin-left: 20px;
+	position: absolute;
+	bottom: -6px;
+}
+
+.fn-key{
+	position: relative;
+	top: -17px;
+}
+
+.fn{
+	margin-left: 8.5px;
+	margin-top: 11px;
+}
+
+.home-key{
+	position: relative;
+	top: -17px;
+}
+
+.home{
+	margin-left: 0.5px;
+	margin-top: 11px;
+}
+
+.page-up-key{
+	position: relative;
+	top: -10px;
+	text-align: center;
+}
+
+.page-up{
+	margin-left: -5px;
+	margin-top: 6px;
+}
+
+.clear-key{
+	position: relative;
+	top: -17px;
+}
+
+.clear{
+	margin-left: 2px;
+	margin-top: 11px;
+}
+
+.equal-key{
+	position: relative;
+	top: -17px;
+}
+
+.equal{
+	margin-left: 9.5px;
+	margin-top: 11px;
+}
+
+.division-key{
+	position: relative;
+	top: -17px;
+}
+
+.division{
+	margin-left: 11.5px;
+	margin-top: 11px;
+}
+
+.multiply-key{
+	position: relative;
+	top: -15px;
+}
+
+.multiply{
+	margin-left: 10.5px;
+	margin-top: 13.5px;
+}
+
+
+
+.third-row {
+	margin-left: 8px;
+	margin-top: -1px;
+}
+
+.tab-key{
+	position: relative;
+	top: -12px;
+}
+
+.q-key{
+	position: relative;
+	top: -27px;
+}
+
+.q{
+	margin-left: 9.5px;
+	margin-top: 12px;
+}
+
+.w{
+	margin-left: 8.5px;
+	margin-top: 12px;
+}
+
+.e{
+	margin-left: 10.5px;
+	margin-top: 12px;
+}
+
+.t{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.y{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.i{
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+.p{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.left-figure-key{
+	position: relative;
+	top: -20px;
+	line-height: 1.5;
+}
+
+.figure{
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.figure-two{
+	margin-left: 11px;
+	margin-top: 3px;
+}
+
+.del-key{
+	position: relative;
+	top: -28px;
+}
+
+.delete-two{
+	margin-left: -1px;
+	margin-top: 11px;
+}
+
+.end-key{
+	position: relative;
+	top: -28px;
+}
+
+.end{
+	margin-left: 5px;
+	margin-top: 11px;
+}
+
+.page-down-key{
+	position: relative;
+	top: -21px;
+}
+
+.page-down{
+	margin-left: 1px;
+	margin-top: 6px;
+}
+
+.seven-key{
+	position: relative;
+	top: -28px;
+}
+
+.seven{
+	margin-left: 10px;
+	margin-top: 11px;
+}
+
+.minus{
+	margin-left: 11px;
+	margin-top: 11px;
+}
+
+
+
+.fourth-row {
+	margin-left: 8px;
+	margin-top: -17px;
+}
+
+.caps-key{
+	position: relative;
+	top: -7px;
+}
+
+.circle{
+	width: 3px;
+	height: 3px;
+  margin-top: 7px;
+  margin-left: 1px;
+	border-radius: 50%;
+	background-color: #787679;
+}
+
+.caps-two{
+	margin-top: 10px;
+}
+
+.a-key{
+	position: relative;
+	top: -15px;
+}
+
+.f-key{
+	position: relative;
+	top: -15px;
+}
+
+.f{
+	margin-top: 12px;
+	margin-left: 10.5px;
+}
+
+.line{
+	width: 7px;
+	height: 2px;
+	background-color: #e4e5e7;
+	border-radius: 2px;
+	margin-left: 10px;
+	margin-top: -5px;
+}
+
+.dotted{
+	margin-left: 12px;
+	margin-top: 5px;
+}
+
+.dotted-key{
+	position: relative;
+	top: -10px;
+}
+
+.commas-key{
+	position: relative;
+	top: -8px;
+}
+
+.commas{
+	margin-left: 11px;
+	margin-top: 7px;
+}
+
+.return-key{
+	position: relative;
+	top: -8px;
+}
+
+.ret{
+	margin-left: 32px;
+	margin-top: 19px;
+}
+
+.four-key{
+	position: relative;
+	top: -15px;
+	margin-left: 1px;
+}
+
+.six-key{
+	position: relative;
+	top: -15px;
+}
+
+.four{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.plus-left{
+	margin-left: 10px;
+	margin-top: 11px;
+}
+
+.plus-left-key{
+	position: relative;
+	top: -16px;
+}
+
+
+.return {
+	width: 72px;
+	margin-right: 166px;
+}
+
+.caps {
+	width: 72px;
+}
+
+
+
+
+.fifth-row {
+	margin-left: 8px;
+	margin-top: 6px;
+}
+
+.shift {
+	width: 94px;
+}
+
+.shift-key{
+	position: relative;
+	top: -18px;
+}
+
+.shift-key-right{
+	position: relative;
+	top: -18.5px;
+}
+
+.shift-left{
+	margin-top: 21px;
+}
+
+.z-key{
+	position: relative;
+	top: -27px;
+}
+
+.z{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.m{
+	margin-left: 9px;
+	margin-top: 12px;
+}
+
+.left-key{
+	position: relative;
+	top: -21px;
+}
+
+.left{
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.spn-left{
+	margin-left: 3px;
+}
+
+.spn-dot{
+	margin-left: 2px;
+}
+
+.shift-right{
+	margin-top: 21px;
+	margin-left: 61px;
+}
+
+.up {
+	position: relative;
+	bottom: 26px;
+	margin-left: 61px;
+	margin-right: 61px;
+}
+
+.one-key{
+	position: relative;
+	top: -27px;
+	margin-left: 1px;
+}
+
+.two-key{
+	position: relative;
+	top: -27px;
+}
+
+.enter {
+	position: absolute;
+	right: 6px;
+	margin-top: -18px;
+	height: 81px;
+}
+
+.right-enter{
+	margin-left: 1.5px;
+	margin-top: 63px;
+}
+
+.last-row {
+	margin-left: 8px;
+	margin-top: -23px;
+}
+
+.ctrl {
+	width: 61px;
+	height: 37px;
+	position: relative;
+	top: -6px;
+}
+
+.contrl-l{
+	margin-top: 21px;
+}
+
+.option-l{
+	margin-top: 21px;
+	margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.option {
+	position: relative;
+	bottom: 6px;
+	width: 49px;
+	height: 37px;
+}
+
+.command {
+	width: 62px;
+}
+
+.command-key{
+	position: relative;
+	top: -6px;
+  height: 37px;
+}
+
+.command-l{
+	margin-top: 21px;
+	margin-left: 5px;
+}
+
+.space {
+	width: 258px;
+}
+
+.command-r{
+	margin-top: 21px;
+}
+
+.option-r{
+	margin-top: 21px;
+}
+
+.contrl-r{
+	margin-top: 21px;
+	margin-left: 17px;
+}
+
+.ctrl-right {
+	position: relative;
+	top: -6px;
+	width: 62px;
+	margin-right: 18px;
+	height: 37px;
+}
+
+.left-key-img{
+	position: relative;
+	top: -15px;
+}
+
+.left-img{
+	width: 8px;
+	height: 8px;
+	margin-left: 8px;
+	margin-top: 14px;
+	transform: rotate(-90deg);
+}
+
+.down-key-img{
+	position: relative;
+	top: -14px;
+}
+
+.down-img{
+	width: 8px;
+	height: 8px;
+	margin-left: 9px;
+	margin-top: 15px;
+	transform: rotate(-180deg);
+}
+
+.right-key-img{
+	position: relative;
+	top: -14px;
+}
+
+.right-img{
+	width: 8px;
+	height: 8px;
+	margin-left: 10px;
+	margin-top: 15px;
+	transform: rotate(90deg);
+}
+
+.right {
+	margin-right: 16px;
+}
+
+.zero {
+	width: 83px;
+}
+
+.zero-key{
+	position: relative;
+	top: -15px;
+	margin-left: 1px;
+}
+
+.zer{
+	margin-left: 31px;
+	margin-top: 12px;
+}
+
+.dot-r-key{
+	position: relative;
+	top: -16px;
+	margin-left: 1px;
+}
+
+.dot-r{
+	margin-left: 12px;
+	margin-top: 11px;
+}
+>>>>>>> 976034c84ae84e5e4d9a5ac4f125da70a6219ffa
