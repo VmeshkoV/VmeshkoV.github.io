@@ -212,11 +212,8 @@ body {
 .up-img {
   width: 8px;
   height: 8px;
-<<<<<<< HEAD
   margin-left: 1.5px;
-=======
   margin-left: 1px;
->>>>>>> 976034c84ae84e5e4d9a5ac4f125da70a6219ffa
 }
 .arrow-up {
   margin-right: 18px;
@@ -722,12 +719,8 @@ body {
 .down-img {
   width: 8px;
   height: 8px;
-<<<<<<< HEAD
-  margin-left: 9.5px;
-=======
-  margin-left: 9px;
->>>>>>> 976034c84ae84e5e4d9a5ac4f125da70a6219ffa
   margin-top: 15px;
+  margin-left: 9px;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
