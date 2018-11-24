@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #49506e;
+}
+
+.ghost{
+	margin-top: 50%;
+	transform: translateY(-60%);
+	animation: fly 1.7s infinite linear;
+	&-wrap{
+		width: 500px;
+	  height: 500px;
+	  position: absolute;
+	  top: 40%;
+	  left: 50%;
+	  margin: -250px 0 0 -250px;
+	}
+	&-head{
+		display: block;
+		margin: 0 auto;
+		width: 171px;
+		height: 172px;
+		background-color: #fff;
+		border-radius: 50%;
+	}
+	&-eyes{
+		position: relative;
+		top: 80px;
+		left: 47px;
+	}
+	&-eye-left{
+		display: inline-block;
+		width: 27px;
+		height: 27px;
+		background-color: #302c51;
+		border-radius: 50%;
+	}
+	&-eye-right{
+		display: inline-block;
+		margin-left: 18px;
+		width: 27px;
+		height: 27px;
+		background-color: #302c51;
+		border-radius: 50%;
+	}
+	&-mouth{
+		width: 42px;
+	  height: 21px;
+	  position: relative;
+		top: 90px;
+		left: 64px;
+	  background-color: #302c51;
+	  border-radius: 0 0 100px 100px;
+	}
+	&-tooth{
+		width: 7px;
+		height: 7px;
+		margin-left: 12px;
+		background-color: #fff;
+	}
+	&-body{
+		width: 171px;
+		height: 123px;
+		display: block;
+		margin: 0 auto;
+		background-color: #fff;
+		margin-top: -85px;
+	}
+	&-hands{
+		position: relative;
+		top: 30px;
+		animation: wave-of-hand 0.3s infinite linear;
+	}
+	&-left-hand{
+		width: 34px;
+		height: 34px;
+		position: relative;
+		left: -17px;
+		display: inline-block;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+	&-right-hand{
+		width: 34px;
+		height: 34px;
+		position: relative;
+		left: 116px;
+		display: inline-block;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+	&-feet-wrap{
+		display: block;
+		width: 172px;
+		margin: -17px auto;
+	}
+	&-feet{
+		position: relative;
+		left: 5px;
+	}
+	&-foot{
+		display: inline-block;
+		width: 34.4px;
+		height: 34.4px;
+		margin-left: -4.2px;
+		background-color: #fff;
+		border-radius: 50%;
+	}
+	&-shadow{
+		width: 172px;
+		height: 35px;
+		display: block;
+		margin: -70px auto;
+		background-color: #2a2a4c;
+		border-radius: 50%;
+		animation: shadow 1.7s infinite linear;
+	}
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-38%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    width: 145px;
+  }
+  50% {
+    width: 180px;
+  }
+  100% {
+    width: 145px;
+  }
+}
+
+@keyframes wave-of-hand {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
