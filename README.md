@@ -2,6 +2,8 @@
 Repository for examples of my work
 
 
+[Маленькое привидение](https:/VmeshkoV.github.io/Ghost/ "Маленькое привидение"): Маленькое привидение
+
 [Клавиатура Apple на HTML, CSS](https://vmeshkoV.github.io/keyboard/ "Клавиатура Apple на HTML, CSS"): Клавиатура Apple на HTML, CSS
 
 [Транспортная компания](https://vmeshkov.github.io/BTG/ "Транспортная компания"): Сайт для транспортной компании (первая версия)
