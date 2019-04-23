@@ -93,7 +93,7 @@ body {
 }
 .header-phone-icon {
   display: inline-block;
-  color: #fff;
+  color: #f2b10d;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   margin-right: 5px;
@@ -234,6 +234,7 @@ body {
   box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
   -webkit-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
+  position: relative;
 }
 .footer-social-wrap {
   display: inline-block;
