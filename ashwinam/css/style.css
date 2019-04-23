@@ -65,13 +65,29 @@ body {
   width: 20%;
   height: 100%;
   text-align: center;
-  background-color: #f2b10d;
+  background-color: #fff;
   vertical-align: top;
   padding-top: 10px;
+}
+.header-logo-img {
+  width: 28px;
+  position: relative;
+  top: -5px;
+  left: -10px;
 }
 .header-logo-span {
   font-size: 25px;
   font-family: 'Otari Bold', sans-serif;
+  position: relative;
+  top: -9px;
+  color: #570861;
+}
+.header-logo-subspan {
+  position: relative;
+  left: -102px;
+  top: 8px;
+  font-size: 12px;
+  color: #f2b10d;
 }
 .header-menu {
   display: inline-block;
@@ -212,12 +228,12 @@ body {
 }
 /* Footer */
 .footer {
-  height: 600px;
+  height: 650px;
   background-color: #544477;
   border-top: solid 5px #f2b10d;
 }
 .footer-phone {
-  color: #fff;
+  color: #e2dcf1;
 }
 .footer-contacts {
   text-align: center;
@@ -242,6 +258,20 @@ body {
   font-size: 35px;
   font-family: 'Otari Bold', sans-serif;
   margin-bottom: 30px;
+  color: #f2b10d;
+}
+.footer-logo-img {
+  width: 55px;
+  position: relative;
+  top: 105px;
+  left: -96px;
+}
+.footer-logo-subspan {
+  position: relative;
+  left: -102px;
+  top: 8px;
+  font-size: 12px;
+  color: #f2b10d;
 }
 .footer-social {
   height: 50px;
@@ -308,6 +338,7 @@ body {
 }
 /* About */
 .about {
+  display: none;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
   height: 1200px;

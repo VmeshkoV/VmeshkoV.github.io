@@ -83,12 +83,28 @@ body {
     width: 20%;
     height: 100%;
     text-align: center;
-    background-color: @orange;
+    background-color: #fff;
     vertical-align: top;
     padding-top: 10px;
+    &-img{
+      width: 28px;
+      position: relative;
+      top: -5px;
+      left: -10px;
+    }
     &-span{
       font-size: 25px;
       .otari-bold;
+      position: relative;
+      top: -9px;
+      color: @purple;
+    }
+    &-subspan{
+      position: relative;
+      left: -102px;
+      top: 8px;
+      font-size: 12px;
+      color: @orange;
     }
   }
   &-menu{
@@ -228,11 +244,11 @@ body {
 
 /* Footer */
 .footer{
-  height: 600px;
+  height: 650px;
   background-color: #544477;
   border-top: solid 5px @orange;
   &-phone{
-    color: #fff;
+    color: #e2dcf1;
   }
   &-contacts{
     text-align: center;
@@ -257,6 +273,20 @@ body {
     font-size: 35px;
     .otari-bold;
     margin-bottom: 30px;
+    color: @orange;
+  }
+  &-logo-img{
+    width: 55px;
+    position: relative;
+    top: 105px;
+    left: -96px;
+  }
+  &-logo-subspan{
+    position: relative;
+    left: -102px;
+    top: 8px;
+    font-size: 12px;
+    color: @orange;
   }
   &-social{
     height: 50px;
@@ -325,6 +355,7 @@ body {
 
 /* About */
 .about{
+  display: none;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
   height: 1200px;
