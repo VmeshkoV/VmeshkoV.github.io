@@ -202,6 +202,9 @@ body {
   background-color: #544477;
   border-top: solid 5px #f2b10d;
 }
+.footer-phone {
+  color: #fff;
+}
 .footer-contacts {
   text-align: center;
   margin-top: -5px;
@@ -285,4 +288,7 @@ body {
 .footer-phone-icon-right {
   color: #f2b10d;
   margin-right: 10px;
+}
+.footer-phone-right {
+  color: #fff;
 }
