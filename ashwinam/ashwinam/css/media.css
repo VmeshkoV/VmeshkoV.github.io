@@ -84,6 +84,34 @@
   .footer-social-wrap{
     display: block;
   }
+  .about-slider-wrap{
+    width: 300px;
+  }
+  .about{
+    padding-top: 0;
+    height: 860px;
+  }
+  .title{
+    padding-bottom: 0;
+  }
+  .about-btn-prev, .about-btn-next{
+    top: 66px;
+  }
+  .about-first-row {
+    height: 128px;
+  }
+  .about-slider {
+    height: 200px;
+  }
+  .about-title{
+    text-align: center;
+  }
+  .about-second-row{
+    padding: 40px 10px 0 10px;
+  }
+  .about-text{
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 768px){

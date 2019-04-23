@@ -31,8 +31,30 @@
 			<i class="fa fa-phone header-phone-icon" aria-hidden="true"></i>
 			<p class="header-phone-number">+7 (499) 210-67-77</p>
 		</div>
+	</header>
 
+	<!-- Всплывающий хедер -->
+	<header id="header" class="header header-fix">
+		<div class="header-logo">
+			<span class="header-logo-span">Ashwinam</span>
+		</div>
 
+		<div class="header-menu">
+			<ul class="header-menu-list">
+				<li class="header-menu-link">О нас</li>
+				<li class="header-menu-link">Расписание</li>
+				<li class="header-menu-link">Аюрведа</li>
+				<li class="header-menu-link">Йога</li>
+				<li class="header-menu-link">Галерея</li>
+				<li class="header-menu-link">Контакты</li>
+				<li class="header-menu-link">Акции</li>
+			</ul>
+		</div>
+
+		<div class="header-phone">
+			<i class="fa fa-phone header-phone-icon" aria-hidden="true"></i>
+			<p class="header-phone-number">+7 (499) 210-67-77</p>
+		</div>
 	</header>
 
 	<!-- Slider -->
@@ -84,6 +106,49 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- About us -->
+	<section class="about">
+		<img class="title-line" src="./img/lotus-main.png" alt="lotus">
+		<h1 class="title">О нас</h1>
+
+		<div class="container">
+			<div class="row about-first-row">
+				<div class="about-slider-wrap">
+					<div class="about-slider">
+						<img class="about-slider-item" src="./img/slider/spa.jpg" alt="">
+						<img class="about-slider-item" src="./img/slider/spa2.jpg" alt="">
+						<img class="about-slider-item" src="./img/slider/spa3.jpg" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="row about-second-row">
+				<h2 class="about-title">Ashwinam</h2>
+				<p class="about-text">Наш центр Аюрведы и Йоги Ашвинам был назван в честь братьев близнецов Ашвини Кумары – божественные близнецы-всадники в Ригведе, сыновья Сараньи, богини облаков и жены Сурьи в форме Вивасвата. Они символизируют рассвет и закат и приносят богатство людям, предотвращают неудачи и болезни.</p>
+				<p class="about-text">Ашвини Кумары — лекари богов и покровители аюрведийской медицины. Их называют Насатья (в двойственном числе насатйау «добрые, полезные») в «Ригведе», позже Насатьей называли одного из близнецов, другого называли Дасра («светлый дар»). Исходя из популярной этимологии, имя Насатья трактуется как на+асатйа «не лживый»=”истинный”.</p>
+				<p class="about-text">В Ашвинаме проводятся аюрведические процедуры, массажи, проходит обучение йоги для начинающих, беременных женщин и детей, а также проводится обучение индийскому боевому искусству – Калари.</p>
+				<p class="about-text">Мы находимся в тихом и уютном  спальном районе Москвы между Дорогомилово и Раменки, в элитном и охраняемом жилом комплексе “Обыкновенное чудо”, недалеко от студии Мосфильм.</p>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -173,6 +238,22 @@
 	});
 </script>
 
+<!-- Слайдер о нас -->
+<script>
+	$(document).ready(function(){
+	  $('.about-slider').slick({
+			dots: true,
+		  infinite: true,
+		  speed: 1000,
+		  fade: true,
+		  cssEase: 'linear',
+			autoplay: true,
+			prevArrow: '<button id="prev" type="button" class="btn about-btn-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>',
+      nextArrow: '<button id="next" type="button" class="btn about-btn-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>'
+	  });
+	});
+</script>
+
 <!-- Подключаем wow min js -->
 <link rel="stylesheet" href="css/animate.css">
 <script src="js/wow.min.js"></script>
@@ -189,18 +270,18 @@
 </script>
 
 <!-- Фиксированное меню -->
-<!-- <script>
+<script>
 	$(document).ready(function(){
 	    $(window).scroll(function () {
-	        if ($(this).scrollTop() > 200) {
-	            $('.main_white').fadeIn();
+	        if ($(this).scrollTop() > 100) {
+	            $('.header-fix').fadeIn();
 	        } else {
-	            $('.main_white').hide();
+	            $('.header-fix').hide();
 	        }
 	    });
 	});
 
-</script> -->
+</script>
 
 
 <!-- Гамбургер меню -->

@@ -38,6 +38,9 @@ body {
   margin: 0 auto;
 }
 /* Оформление кнопок */
+.btn:focus {
+  outline: none;
+}
 /* Оформление форм*/
 /* Header */
 .header {
@@ -48,6 +51,14 @@ body {
   box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.header-fix {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 .header-logo {
   display: inline-block;
@@ -105,6 +116,7 @@ body {
 }
 /* Slider */
 .slider-wrap {
+  display: none;
   height: 93vh;
 }
 .slider {
@@ -141,6 +153,7 @@ body {
 }
 /* Main */
 .main {
+  display: none;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
   height: 670px;
@@ -178,6 +191,7 @@ body {
 }
 /* Partners */
 .partners {
+  display: none;
   background: url(../img/bg-orange.jpg) top center no-repeat;
   background-size: cover;
   padding: 28px 0 80px 0;
@@ -291,4 +305,73 @@ body {
 }
 .footer-phone-right {
   color: #fff;
+}
+/* About */
+.about {
+  background: url(../img/bg.jpg) top center no-repeat;
+  background-size: cover;
+  height: 1200px;
+  padding-top: 30px;
+}
+.about-slider-wrap {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+}
+.about-slider {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-slider-item {
+  width: auto;
+  height: 100%;
+}
+.about-slider-item:focus {
+  outline: none;
+}
+.about-btn-prev {
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  left: 10px;
+}
+.about-btn-next {
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  right: 10px;
+}
+.about-first-row {
+  height: 520px;
+}
+.about-second-row {
+  text-align: justify;
+  padding-top: 50px;
+}
+.about-title {
+  font-size: 35px;
+  font-family: 'Otari Bold', sans-serif;
+  color: #f2b10d;
+}
+.about-text {
+  font-size: 16px;
+  margin: 30px 0 30px 0;
+}
+/* Кнопки слайдера о нас */
+#prev:focus,
+#next:focus {
+  outline: none;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
 }
