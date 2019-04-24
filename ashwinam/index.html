@@ -11,7 +11,7 @@
 <body>
 	<!-- Header -->
 	<header id="header" class="header">
-		<div class="header-logo">
+		<div id="main" class="header-logo" onclick="getPage(this)">
 			<img class="header-logo-img" src="./img/logo.png" alt="logo">
 			<span class="header-logo-span">Ashwinam</span>
 			<span class="header-logo-subspan">Yoga & Ayurveda</span>
@@ -19,13 +19,13 @@
 
 		<div class="header-menu">
 			<ul class="header-menu-list">
-				<li class="header-menu-link">О нас</li>
-				<li class="header-menu-link">Расписание</li>
-				<li class="header-menu-link">Аюрведа</li>
-				<li class="header-menu-link">Йога</li>
-				<li class="header-menu-link">Галерея</li>
-				<li class="header-menu-link">Контакты</li>
-				<li class="header-menu-link">Акции</li>
+				<li id="about" class="header-menu-link" onclick="getPage(this)">О нас</li>
+				<li id='schedule' class="header-menu-link" onclick="getPage(this)">Расписание</li>
+				<li id='ayurveda' class="header-menu-link" onclick="getPage(this)">Аюрведа</li>
+				<li id='yoga' class="header-menu-link" onclick="getPage(this)">Йога</li>
+				<li id='passage' class="header-menu-link" onclick="getPage(this)">Галерея</li>
+				<li id='contacts' class="header-menu-link" onclick="getPage(this)">Контакты</li>
+				<li id='stock' class="header-menu-link" onclick="getPage(this)">Акции</li>
 			</ul>
 		</div>
 
@@ -45,7 +45,7 @@
 
 		<div class="header-menu">
 			<ul class="header-menu-list">
-				<li class="header-menu-link">О нас</li>
+				<li class="header-menu-link about-link">О нас</li>
 				<li class="header-menu-link">Расписание</li>
 				<li class="header-menu-link">Аюрведа</li>
 				<li class="header-menu-link">Йога</li>
@@ -64,10 +64,12 @@
 	<!-- Slider -->
 	<section class="slider-wrap">
 		<p class="slider-logo">Ashwinam</p>
+		<p class="slider-logo-sub">The Ayurveda and Yoga center</p>
 		<div class="slider">
-		  <img class="slider-item" src="./img/slider/spa.jpg" alt="">
-		  <img class="slider-item" src="./img/slider/spa2.jpg" alt="">
-		  <img class="slider-item" src="./img/slider/spa3.jpg" alt="">
+		  <img class="slider-item" src="./img/slider/main-1.jpg" alt="Изображение слайдера">
+		  <img class="slider-item" src="./img/slider/main-3.jpg" alt="Изображение слайдера">
+			<img class="slider-item" src="./img/slider/spa.jpg" alt="Изображение слайдера">
+			<img class="slider-item" src="./img/slider/spa2.jpg" alt="Изображение слайдера">
 		</div>
 	</section>
 
@@ -120,9 +122,9 @@
 			<div class="row about-first-row">
 				<div class="about-slider-wrap">
 					<div class="about-slider">
-						<img class="about-slider-item" src="./img/slider/spa.jpg" alt="">
-						<img class="about-slider-item" src="./img/slider/spa2.jpg" alt="">
-						<img class="about-slider-item" src="./img/slider/spa3.jpg" alt="">
+						<img class="about-slider-item" src="./img/slider/main-3.jpg" alt="Изображение слайдера">
+						<img class="about-slider-item" src="./img/slider/spa.jpg" alt="Изображение слайдера">
+						<img class="about-slider-item" src="./img/slider/spa2.jpg" alt="Изображение слайдера">
 					</div>
 				</div>
 			</div>

@@ -86,6 +86,7 @@ body {
     background-color: #fff;
     vertical-align: top;
     padding-top: 10px;
+    cursor: pointer;
     &-img{
       width: 28px;
       position: relative;
@@ -151,7 +152,6 @@ body {
 
 /* Slider */
 .slider-wrap{
-  display: none;
   height: 93vh;
 }
 .slider{
@@ -177,12 +177,25 @@ body {
     .otari-bold;
     z-index: 1;
     opacity: 0.9;
+    text-shadow: 3px 2px 2px rgba(150, 150, 150, 0.71);
+    &-sub{
+      text-align: center;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 50px;
+      .otari-bold;
+      z-index: 1;
+      opacity: 0.9;
+      text-shadow: 3px 2px 2px rgba(150, 150, 150, 0.71);
+    }
   }
 }
 
 /* Main */
 .main{
-  display: none;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
   height: 670px;
@@ -195,6 +208,7 @@ body {
   }
   &-left-list, &-right-list{
     list-style-type: none;
+    color: #7178c6;
   }
   &-list{
     &-item{
@@ -222,7 +236,6 @@ body {
 
 /* Partners */
 .partners{
-  display: none;
   background: url(../img/bg-orange.jpg) top center no-repeat;
   background-size: cover;
   padding: 28px 0 80px 0;
@@ -416,4 +429,9 @@ body {
 }
 .slick-dotted.slick-slider{
   margin-bottom: 0;
+}
+
+// Активный пункт меню
+.active{
+  color: @orange;
 }
