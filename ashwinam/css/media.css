@@ -1,4 +1,8 @@
 @media (min-width: 320px) and (max-width: 479px){
+  .slider-logo-sub{
+    top: 18%;
+    font-size: 18px;
+  }
   .header-logo{
     display: block;
     width: 100%;
@@ -28,6 +32,7 @@
   }
   .title{
     font-size: 29px;
+    padding-bottom: 25px;
   }
   .main-list-item-icon-left, .main-list-item-icon-right {
     top: -7px;
@@ -92,9 +97,6 @@
     padding-top: 0;
     height: 860px;
   }
-  .title{
-    padding-bottom: 0;
-  }
   .about-btn-prev, .about-btn-next{
     top: 66px;
   }
@@ -124,6 +126,10 @@
 }
 
 @media (min-width: 480px) and (max-width: 768px){
+  .slider-logo-sub{
+    font-size: 23px;
+    top: 21%;
+  }
   .header-logo{
     display: block;
     width: 100%;
