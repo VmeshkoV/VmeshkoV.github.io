@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
 function getPage(el) {
   if(el.id === 'about'){
-    // $('.header-menu-link').removeClass('active');
+    $('.header-menu-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.about').show();
@@ -18,5 +18,10 @@ function getPage(el) {
     $(el).addClass('active');
     $('section').hide();
     $('.schedule').show();
+  } else if(el.id === 'ayurveda'){
+    $('.header-menu-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.ayurveda').show();
   }
 };
