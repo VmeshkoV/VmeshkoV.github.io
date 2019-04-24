@@ -416,6 +416,21 @@ body {
 .schedule {
   display: none;
 }
+/* Ayurveda */
+.ayurveda {
+  height: 700px;
+  background: url(../img/bg.jpg) top center no-repeat;
+  background-size: cover;
+}
+.ayurveda-treatments-wraps {
+  width: 480px;
+  background-color: #fff;
+  text-align: center;
+  border: solid 1px red;
+}
+.ayurveda-treatments-img {
+  width: 100%;
+}
 /* Кнопки слайдера о нас */
 #prev:focus,
 #next:focus {
