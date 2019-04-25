@@ -1,4 +1,7 @@
 @media (min-width: 320px) and (max-width: 479px){
+  .menu-min{
+    display: block;
+  }
   .slider-logo-sub{
     top: 18%;
     font-size: 18px;
@@ -12,10 +15,10 @@
     display: none;
   }
   .slider-wrap {
-    height: 175px;
+    height: 235px;
   }
   .slider-logo{
-    top: 27%;
+    top: 135px;
     font-size: 68px;
   }
   .main{
@@ -31,7 +34,7 @@
     padding-left: 0;
   }
   .title{
-    font-size: 29px;
+    font-size: 22px;
     padding-bottom: 25px;
   }
   .main-list-item-icon-left, .main-list-item-icon-right {
@@ -94,8 +97,7 @@
     width: 300px;
   }
   .about{
-    padding-top: 0;
-    height: 860px;
+    height: 965px;
   }
   .about-btn-prev, .about-btn-next{
     top: 66px;
@@ -139,10 +141,10 @@
     display: none;
   }
   .slider-wrap {
-    height: 265px;
+    height: 322px;
   }
   .slider-logo{
-    top: 33%;
+    top: 185px;
     font-size: 68px;
   }
   .main{
@@ -222,7 +224,7 @@
     height: 421px;
   }
   .slider-logo{
-    top: 33%;
+    top: 228;
     font-size: 68px;
   }
   .main{
@@ -274,7 +276,7 @@
     height: 389px;
   }
   .about{
-    height: 1130px;
+    height: 1185px;
   }
   .about-second-row {
     padding: 50px 40px 0 40px;
@@ -290,6 +292,12 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
+  .slider-wrap {
+    height: 602px;
+  }
+  .slider-logo{
+    top: 315px;
+  }
   .header-menu-list {
     font-size: 13px;
   }
@@ -351,6 +359,9 @@
 }
 
 @media (min-width: 1201px){
+  .slider-logo{
+    top: 380px;
+  }
   .header-logo-subspan {
     position: relative;
     left: 15px;
