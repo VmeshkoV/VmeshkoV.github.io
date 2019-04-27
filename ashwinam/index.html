@@ -11,7 +11,7 @@
 <body>
 	<!-- Header -->
 	<header class="header">
-		<div id="main" class="header-logo" onclick="getPage(this)">
+		<div class="header-logo" onclick="getPage(this)">
 			<img class="header-logo-img" src="./img/logo.png" alt="logo">
 			<span class="header-logo-span">Ашвинам</span>
 			<span class="header-logo-subspan">Yoga & Ayurveda</span>
@@ -19,13 +19,14 @@
 
 		<div class="header-menu">
 			<ul class="header-menu-list">
+				<li id="main" class="header-menu-link" onclick="getPage(this)">Главная</li>
 				<li id="about" class="header-menu-link" onclick="getPage(this)">О нас</li>
 				<li id='schedule' class="header-menu-link" onclick="getPage(this)">Расписание</li>
 				<li id='ayurveda' class="header-menu-link" onclick="getPage(this)">Аюрведа</li>
 				<li id='yoga' class="header-menu-link" onclick="getPage(this)">Йога</li>
 				<li id='passage' class="header-menu-link" onclick="getPage(this)">Галерея</li>
 				<li id='contacts' class="header-menu-link" onclick="getPage(this)">Контакты</li>
-				<li id='stock' class="header-menu-link" onclick="getPage(this)">Акции</li>
+				<!-- <li id='stock' class="header-menu-link" onclick="getPage(this)">Акции и События</li> -->
 			</ul>
 		</div>
 
@@ -40,13 +41,14 @@
 		<i class="fa fa-bars bars-btn" aria-hidden="true"></i>
 		<div class="menu-min-wrap">
 			<ul class="menu-min-list">
+				<li id="main-min" class="menu-min-link" onclick="getPageMin(this)">Главная</li>
 				<li id="about-min" class="menu-min-link" onclick="getPageMin(this)">О нас</li>
 				<li id='schedule-min' class="menu-min-link" onclick="getPageMin(this)">Расписание</li>
 				<li id='ayurveda-min' class="menu-min-link" onclick="getPageMin(this)">Аюрведа</li>
 				<li id='yoga-min' class="menu-min-link" onclick="getPageMin(this)">Йога</li>
 				<li id='passage-min' class="menu-min-link" onclick="getPageMin(this)">Галерея</li>
 				<li id='contacts-min' class="menu-min-link" onclick="getPageMin(this)">Контакты</li>
-				<li id='stock-min' class="menu-min-link" onclick="getPageMin(this)">Акции</li>
+				<!-- <li id='stock-min' class="menu-min-link" onclick="getPageMin(this)">Акции и События</li> -->
 			</ul>
 		</div>
 	</div>
@@ -72,9 +74,9 @@
 			<div class="row">
 				<div class="test col-md-4">
 					<ul class="main-left-list">
-						<li class="main-list-item"><p class="main-text">Harmonize the Body</p><img class="main-list-item-icon-left" src="./img/icon.png" alt=""></li>
-						<li class="main-list-item"><p class="main-text">Yoga for Everybody</p><img class="main-list-item-icon-left" src="./img/icon.png" alt=""></li>
-						<li class="main-list-item"><p class="main-text">Renewing Your Mind</p><img class="main-list-item-icon-left" src="./img/icon.png" alt=""></li>
+						<li class="main-list-item"><p class="main-text">Гармония тела</p><img class="main-list-item-icon-left" src="./img/icon.png" alt=""></li>
+						<li class="main-list-item"><p class="main-text">Гармония духа</p><img class="main-list-item-icon-left" src="./img/icon.png" alt=""></li>
+						<li class="main-list-item"><p class="main-text">Гармония разума</p><img class="main-list-item-icon-left" src="./img/icon.png" alt=""></li>
 					</ul>
 				</div>
 
@@ -82,9 +84,9 @@
 
 				<div class="test col-md-4">
 					<ul class="main-right-list">
-						<li class="main-list-item"><img class="main-list-item-icon-right" src="./img/icon.png" alt=""><p class="main-text">Yoga for Real Energy</p></li>
-						<li class="main-list-item"><img class="main-list-item-icon-right" src="./img/icon.png" alt=""><p class="main-text">Small Group Classes</p></li>
-						<li class="main-list-item"><img class="main-list-item-icon-right" src="./img/icon.png" alt=""><p class="main-text">Live the Life You Love</p></li>
+						<li class="main-list-item"><img class="main-list-item-icon-right" src="./img/icon.png" alt=""><p class="main-text">Маленькие группы</p></li>
+						<li class="main-list-item"><img class="main-list-item-icon-right" src="./img/icon.png" alt=""><p class="main-text">Йога для всех</p></li>
+						<li class="main-list-item"><img class="main-list-item-icon-right" src="./img/icon.png" alt=""><p class="main-text">Наслаждайся жизнью</p></li>
 					</ul>
 				</div>
 			</div>
@@ -149,16 +151,13 @@
 					<div class="ayurveda-treatments-wraps">
 						<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
 						<div class="ayurveda-priceBlock">
-							<div class="col-md-6 ayurveda-left">
+							<div class="ayurveda-align">
 								<p class="ayurveda-price">4000 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-								<button class="ayurveda-btn">Записаться</button>
-							</div>
-
-							<div class="col-md-6 ayurveda-right">
 								<p class="ayurveda-massage">Абхьянгам</p>
 								<p><span class="ayurveda-massage-span">&#10026;</span>Классический масляный массаж</p>
 								<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 60 мин - 4000р</p>
 								<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 90 мин - 4500р</p>
+								<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> Курс 7 дней - 23500р</p>
 							</div>
 						</div>
 					</div>
@@ -166,19 +165,14 @@
 
 				<div class="col-md-6 ayurveda-col">
 					<div class="ayurveda-treatments-wraps">
-						<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+						<img src="./img/svedanam.jpg" alt="svedanam" class="ayurveda-treatments-img">
 						<div class="ayurveda-priceBlock">
-							<div class="col-md-6 ayurveda-left">
-								<p class="ayurveda-price">5500 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-								<button class="ayurveda-btn">Записаться</button>
-							</div>
-
-							<div class="col-md-6 ayurveda-right">
-								<p class="ayurveda-massage">Сведанам</p>
-								<p><span class="ayurveda-massage-span">&#10026;</span>Классический массаж + пропаривание</p>
-								<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 105 мин</p>
-							</div>
-
+								<div class="ayurveda-align-svedanam">
+									<p class="ayurveda-price">5500 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
+									<p class="ayurveda-massage">Сведанам</p>
+									<p><span class="ayurveda-massage-span">&#10026;</span>Классический массаж + пропаривание</p>
+									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 105 мин</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -187,37 +181,31 @@
 				<div class="row ayurveda-row">
 					<div class="col-md-6 ayurveda-col">
 						<div class="ayurveda-treatments-wraps">
-							<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+							<img src="./img/shirodara.jpg" alt="shirodara" class="ayurveda-treatments-img">
 							<div class="ayurveda-priceBlock">
-								<div class="col-md-6 ayurveda-left">
+								
 									<p class="ayurveda-price">6000 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-									<button class="ayurveda-btn">Записаться</button>
-								</div>
-
-								<div class="col-md-6 ayurveda-right">
 									<p class="ayurveda-massage">Широдхара</p>
-									<p><span class="ayurveda-massage-span">&#10026;</span>Антистресс масляный массаж</p>
-									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 60 мин</p>
-								</div>
+									<!-- <p><span class="ayurveda-massage-span">&#10026;</span>Антистресс масляный массаж</p> -->
+									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 60 мин - 6000р</p>
+									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> Курс 3 дня - 15500р</p>
+									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> Курс 5 дней - 24000р</p>
+									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> Курс 7 дней - 31000р</p>
+								
 							</div>
 						</div>
 					</div>
 
 					<div class="col-md-6 ayurveda-col">
 						<div class="ayurveda-treatments-wraps">
-							<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+							<img src="./img/udvarthanam.jpg" alt="udvarthanam" class="ayurveda-treatments-img">
 							<div class="ayurveda-priceBlock">
-								<div class="col-md-6 ayurveda-left">
+								<div class="ayurveda-align-svedanam">
 									<p class="ayurveda-price">5000 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-									<button class="ayurveda-btn">Записаться</button>
-								</div>
-
-								<div class="col-md-6 ayurveda-right">
 									<p class="ayurveda-massage">Удвартханам</p>
 									<p><span class="ayurveda-massage-span">&#10026;</span>Массаж травяным порошком для похудения</p>
 									<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 60 мин</p>
 								</div>
-
 								</div>
 							</div>
 						</div>
@@ -226,14 +214,10 @@
 					<div class="row ayurveda-row">
 						<div class="col-md-6 ayurveda-col">
 							<div class="ayurveda-treatments-wraps">
-								<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+								<img src="./img/kizhi.jpg" alt="kizhi" class="ayurveda-treatments-img">
 								<div class="ayurveda-priceBlock">
-									<div class="col-md-6 ayurveda-left">
+									<div class="ayurveda-align-svedanam">
 										<p class="ayurveda-price">5000 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-										<button class="ayurveda-btn">Записаться</button>
-									</div>
-
-									<div class="col-md-6 ayurveda-right">
 										<p class="ayurveda-massage">Кижи</p>
 										<p><span class="ayurveda-massage-span">&#10026;</span>Массаж травяными мешочками</p>
 										<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 60 мин</p>
@@ -244,19 +228,13 @@
 
 						<div class="col-md-6 ayurveda-col">
 							<div class="ayurveda-treatments-wraps">
-								<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+								<img src="./img/relax.jpg" alt="relax" class="ayurveda-treatments-img">
 								<div class="ayurveda-priceBlock">
-									<div class="col-md-6 ayurveda-left">
+									<div class="ayurveda-align-relax">
 										<p class="ayurveda-price">2500 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-										<button class="ayurveda-btn">Записаться</button>
-									</div>
-
-									<div class="col-md-6 ayurveda-right">
 										<p class="ayurveda-massage">Расслабляющий массаж</p>
-										<p><span class="ayurveda-massage-span">&#10026;</span>Расслабляющий массаж</p>
 										<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 60 мин</p>
 									</div>
-
 									</div>
 								</div>
 							</div>
@@ -265,16 +243,11 @@
 						<div class="row ayurveda-row">
 							<div class="col-md-6 ayurveda-col">
 								<div class="ayurveda-treatments-wraps">
-									<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+									<img src="./img/spine.jpg" alt="spine" class="ayurveda-treatments-img">
 									<div class="ayurveda-priceBlock">
-										<div class="col-md-6 ayurveda-left">
+										<div class="ayurveda-align-relax">
 											<p class="ayurveda-price">1500 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-											<button class="ayurveda-btn">Записаться</button>
-										</div>
-
-										<div class="col-md-6 ayurveda-right">
 											<p class="ayurveda-massage">Массаж спины</p>
-											<p><span class="ayurveda-massage-span">&#10026;</span>Массаж спины</p>
 											<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 30 мин</p>
 										</div>
 									</div>
@@ -283,16 +256,11 @@
 
 							<div class="col-md-6 ayurveda-col">
 								<div class="ayurveda-treatments-wraps">
-									<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+									<img src="./img/head.jpg" alt="head" class="ayurveda-treatments-img">
 									<div class="ayurveda-priceBlock">
-										<div class="col-md-6 ayurveda-left">
+										<div class="ayurveda-align-relax">
 											<p class="ayurveda-price">1000 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-											<button class="ayurveda-btn">Записаться</button>
-										</div>
-
-										<div class="col-md-6 ayurveda-right">
 											<p class="ayurveda-massage">Массаж головы</p>
-											<p><span class="ayurveda-massage-span">&#10026;</span>Массаж головы</p>
 											<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 15 мин</p>
 										</div>
 
@@ -304,16 +272,11 @@
 							<div class="row ayurveda-row">
 								<div class="col-md-6 ayurveda-col">
 									<div class="ayurveda-treatments-wraps">
-										<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+										<img src="./img/foot.jpg" alt="foot" class="ayurveda-treatments-img">
 										<div class="ayurveda-priceBlock">
-											<div class="col-md-6 ayurveda-left">
+											<div class="ayurveda-align-relax">
 												<p class="ayurveda-price">1500 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-												<button class="ayurveda-btn">Записаться</button>
-											</div>
-
-											<div class="col-md-6 ayurveda-right">
 												<p class="ayurveda-massage">Массаж ступней</p>
-												<p><span class="ayurveda-massage-span">&#10026;</span>Массаж ступней</p>
 												<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 20 мин</p>
 											</div>
 										</div>
@@ -322,16 +285,11 @@
 
 								<div class="col-md-6 ayurveda-col">
 									<div class="ayurveda-treatments-wraps">
-										<img src="./img/Abhyanga.jpg" alt="Abhyanga" class="ayurveda-treatments-img">
+										<img src="./img/face.jpg" alt="face" class="ayurveda-treatments-img">
 										<div class="ayurveda-priceBlock">
-											<div class="col-md-6 ayurveda-left">
+											<div class="ayurveda-align-relax">
 												<p class="ayurveda-price">1200 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
-												<button class="ayurveda-btn">Записаться</button>
-											</div>
-
-											<div class="col-md-6 ayurveda-right">
 												<p class="ayurveda-massage">Массаж лица</p>
-												<p><span class="ayurveda-massage-span">&#10026;</span>Массаж лица</p>
 												<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> 20 мин</p>
 											</div>
 
@@ -339,6 +297,22 @@
 										</div>
 									</div>
 								</div>
+				
+							<div class="row ayurveda-row">
+								<div class="col-md-6 ayurveda-col">
+									<div class="ayurveda-treatments-wraps">
+										<img src="./img/anti.jpg" alt="anti" class="ayurveda-treatments-img">
+										<div class="ayurveda-priceBlock">
+											<div class="ayurveda-align-relax">
+												<p class="ayurveda-price">42000 <img class="ayurveda-rub" src="./img/r.svg" alt="рубль"></p>
+												<p class="ayurveda-massage">Антицеллюлитная программа похудения</p>
+												<p><img class="ayurveda-clock" src="./img/clock.png" alt="Часы"> Курс 7 дней</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
+
 			</div>
 		</div>
 	</section>
@@ -428,6 +402,21 @@
 		</section>
 
 
+		<!-- Contacts -->
+		<section class="contacts">
+			<img class="title-line" src="./img/lotus-main.png" alt="lotus">
+			<h2 class="title">Наши контакты</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 contacts-map-wrap">
+						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6a3bab293467e07130e15d5175230fd88ddcc8bde0b5740a5e503fc9e165c29f&amp;source=constructor" width="100%" height="520" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+
 
 
 
@@ -485,8 +474,8 @@
 					</div>
 				</a>
 				<div class="footer-social-wrap">
-					<a href="#" class="footer-facebook"><img class="footer-link" src="./img/fb.png" alt="facebook"></a>
-					<a href="#" class="footer-instagram"><img class="footer-link" src="./img/insta.png" alt="instagram"></a>
+					<a href="https://www.facebook.com/Ashwinaam" class="footer-facebook"><img class="footer-link" src="./img/fb.png" alt="facebook"></a>
+					<a href="https://www.instagram.com/ashwinamyoga/" class="footer-instagram"><img class="footer-link" src="./img/insta.png" alt="instagram"></a>
 				</div>
 
 				<div class="footer-phone-wrap">

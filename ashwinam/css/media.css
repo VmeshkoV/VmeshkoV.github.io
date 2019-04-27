@@ -138,7 +138,7 @@
   }
   .ayurveda-treatments-wraps{
     background: #fff;
-    height: 615px;
+    height: 500px;
     margin-bottom: 40px;
   }
   .ayurveda-row{
@@ -154,9 +154,15 @@
   .passage-row{
     margin-bottom: 0;
   }
+  .ayurveda-massage{
+    margin-top: -19px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 768px){
+  .menu-min{
+    display: block;
+  }
   .slider-logo-sub{
     font-size: 23px;
     top: 21%;
@@ -277,17 +283,20 @@
 
 @media (min-width: 480px) and (max-width: 624px){
   .ayurveda-treatments-wraps{
-    height: 680px;
+    height: 600px;
   }
 }
 
 @media (min-width: 625px) and (max-width: 768px){
   .ayurveda-treatments-wraps{
-    height: 804px;
+    height: 700px;
   }
 }
 
 @media (min-width: 769px) and (max-width: 991px){
+  .menu-min{
+    display: block;
+  }
   .header-logo{
     display: block;
     width: 100%;
@@ -378,7 +387,7 @@
   }
   .ayurveda-treatments-wraps{
     background: #fff;
-    height: 800px;
+    height: 685px;
     margin-bottom: 40px;
   }
   .ayurveda-row{
@@ -465,7 +474,7 @@
     top: -14px;
   }
   .ayurveda-treatments-wraps{
-    height: 520px;
+    height: 562px;
   }
   .passage-img{
     width: 300px;
@@ -494,6 +503,6 @@
     margin-top: -75px;
   }
   .ayurveda-treatments-wraps{
-    height: 586px;
+    height: 595px;
   }
 }

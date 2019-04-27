@@ -58,6 +58,7 @@ body {
   color: #7178c6;
   margin-top: -5px;
   padding-bottom: 40px;
+  text-shadow: 3px 2px 2px rgba(150, 150, 150, 0.71);
   &-line{
     height: 50px;
     display: block;
@@ -222,8 +223,9 @@ body {
   &-text{
     display: inline-block;
     width: 240px;
-    .otari-bold;
-    font-size: 25px;
+    .beau;
+    font-size: 22px;
+    text-shadow: 3px 2px 2px rgba(150, 150, 150, 0.71);
   }
   &-left-list, &-right-list{
     list-style-type: none;
@@ -436,6 +438,7 @@ body {
   &-title{
     font-size: 35px;
     color: @orange;
+    text-shadow: 3px 2px 2px rgba(150, 150, 150, 0.71);
   }
   &-text{
     font-size: 16px;
@@ -464,12 +467,14 @@ body {
   }
   &-priceBlock{
     width: 96%;
-    height: 220px;
+    height: 230px;
+    position: relative;
     background-color: #fff;
     display: block;
     margin: 0 auto;
     position: relative;
-    top: -30px;
+    top: -49px;
+    text-align: center;
   }
   &-treatments-wraps{
     background: rgba(0,0,0,0.05);
@@ -514,7 +519,7 @@ body {
   }
   &-massage{
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: -29px;
     &-span{
       margin-right: 5px;
     }
@@ -525,6 +530,14 @@ body {
     margin-right: 3px;
     position: relative;
     top: -2px;
+  }
+  &-align-svedanam{
+    position: relative;
+    top: 20px;
+  }
+  &-align-relax{
+    position: relative;
+    top: 46px;
   }
 }
 
@@ -543,6 +556,9 @@ body {
     border-collapse: separate;
     border-spacing: 0;
     width: 570px;
+    box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
+    -webkit-box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
+    -moz-box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
   }
   &-visits{
     padding-left: 20px;
@@ -587,6 +603,16 @@ body {
       opacity: 0.5;
     }
   }
+}
+
+
+/* Contacts */
+.contacts{
+  display: none;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background: url(../img/bg.jpg) top center no-repeat;
+  background-size: cover;
 }
 
 
@@ -641,6 +667,12 @@ body {
     -webkit-box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
     -moz-box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
   }
+}
+
+iframe{
+      box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
+    -webkit-box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
+    -moz-box-shadow:1px 4px 7px 1px rgba(0,0,0,0.59);
 }
 
 /* Кнопки слайдера о нас */

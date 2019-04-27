@@ -31,6 +31,11 @@ function getPage(el) {
     $(el).addClass('active');
     $('section').hide();
     $('.passage').show();
+  } else if(el.id === 'contacts'){
+    $('.header-menu-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.contacts').show();
   }
 };
 
@@ -68,6 +73,16 @@ function getPageMin(el) {
     $(el).addClass('active');
     $('section').hide();
     $('.passage').show();
+  } else if(el.id === 'contacts-min'){
+    $('.menu-min-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.contacts').show();
+  } else if(el.id === 'main-min'){
+    $('.menu-min-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.slider-wrap, .main, .partners').show();
   }
 };
 
