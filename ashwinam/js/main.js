@@ -21,6 +21,16 @@ function getPage(el) {
     $(el).addClass('active');
     $('section').hide();
     $('.ayurveda').show();
+  } else if(el.id === 'yoga'){
+    $('.header-menu-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.yoga').show();
+  } else if(el.id === 'passage'){
+    $('.header-menu-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.passage').show();
   }
 };
 
@@ -48,19 +58,22 @@ function getPageMin(el) {
     $(el).addClass('active');
     $('section').hide();
     $('.ayurveda').show();
+  } else if(el.id === 'yoga-min'){
+    $('.menu-min-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.yoga').show();
+  } else if(el.id === 'passage-min'){
+    $('.menu-min-link').removeClass('active');
+    $(el).addClass('active');
+    $('section').hide();
+    $('.passage').show();
   }
 };
 
 
 // Открыть и закрыть меню
 $(document).ready(function(){
-
-
-
-
-
-
-
   $( ".bars-btn" ).click(function() {
     $( ".menu-min-wrap" ).toggle( "slow", function() {
       // Animation complete.
@@ -69,14 +82,9 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
 // Кнопка наверх
 $(document).ready(function(){
-    $('#button-up').click(function () {
+    $('#button-up, .header-menu-link, .menu-min-link').click(function () {
         $('body,html').animate({
             scrollTop: 0
         }, 500);

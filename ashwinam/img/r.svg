@@ -1,0 +1,17 @@
+<svg width="4000" height="5300" xmlns="http://www.w3.org/2000/svg">
+ <metadata id="metadata32">image/svg+xml</metadata>
+ <defs>
+  <style type="text/css"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="5302" width="4002" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="__x0023_Layer_x0020_1">
+   <metadata transform="translate(-940,-1340) translate(-740,-1280) translate(1,1) " fill="#f2b10d" id="CorelCorpID_0Corel-Layer"/>
+   <path fill="#f2b10d" fill-rule="nonzero" id="path26" d="m3738,878c-81,-209 -199,-333 -324,-450c-125,-117 -347,-230 -531,-269c-133,-34 -328,-49 -578,-49l-1944,0l0,2320l-318,0l0,520l318,0l0,211l-318,0l0,520l318,0l0,1437l557,0l0,-1437l1996,0l0,-520l-1996,0l0,-211l35,0l1396,0c537,0 922,-150 1162,-442c229,-279 369,-523 369,-951c0,-248 -69,-476 -143,-680l1,1zm-732,1314l0,0c-140,160 -325,238 -649,238l-1403,0l0,0l-35,0l0,-1787l1427,0c228,0 386,15 467,44c134,85 239,151 317,296c81,151 121,330 121,534c0,291 -113,520 -246,675l1,0z"/>
+  </g>
+ </g>
+</svg>

@@ -11,6 +11,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'BeauSans';
+  src: url('../fonts/BeauSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Миксины и переменные */
 /* Базовые настройки */
 * {
@@ -21,12 +27,13 @@ body {
   font-size: 10px;
   margin: 0;
   padding: 0;
+  font-family: 'BeauSans', sans-serif;
 }
 /* Заголовки */
 .title {
   width: 100%;
   text-align: center;
-  font-family: 'Otari Bold', sans-serif;
+  font-family: 'BeauSans', sans-serif;
   font-size: 35px;
   color: #7178c6;
   margin-top: -5px;
@@ -79,15 +86,16 @@ body {
 }
 .header-logo-span {
   font-size: 25px;
-  font-family: 'Otari Bold', sans-serif;
+  font-family: 'BeauSans', sans-serif;
+  font-weight: bold;
   position: relative;
-  top: -9px;
+  top: -6px;
   color: #570861;
 }
 .header-logo-subspan {
   position: relative;
   left: -102px;
-  top: 8px;
+  top: 11px;
   font-size: 12px;
   color: #f2b10d;
 }
@@ -108,6 +116,7 @@ body {
   color: #fff;
   margin: 0 20px 0 20px;
   cursor: pointer;
+  font-family: 'BeauSans', sans-serif;
 }
 .header-menu-link:hover {
   color: #f2b10d;
@@ -131,6 +140,7 @@ body {
 .header-phone-number {
   display: inline-block;
   color: #fff;
+  font-family: 'BeauSans', sans-serif;
 }
 /* Slider */
 .slider-wrap {
@@ -164,11 +174,13 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 100px;
+  font-size: 69px;
   font-family: 'Otari Bold', sans-serif;
   z-index: 1;
   opacity: 0.9;
   text-shadow: 3px 2px 2px rgba(150, 150, 150, 0.71);
+  font-family: 'BeauSans', sans-serif;
+  text-align: center;
 }
 .slider-logo-sub {
   text-align: center;
@@ -244,6 +256,7 @@ body {
 }
 /* Footer */
 .footer {
+  font-family: 'BeauSans', sans-serif;
   height: 650px;
   background-color: #544477;
   border-top: solid 5px #f2b10d;
@@ -272,7 +285,7 @@ body {
 .footer-logo {
   text-align: center;
   font-size: 35px;
-  font-family: 'Otari Bold', sans-serif;
+  font-family: 'BeauSans', sans-serif;
   margin-bottom: 30px;
   color: #f2b10d;
 }
@@ -280,7 +293,7 @@ body {
   width: 55px;
   position: relative;
   top: 105px;
-  left: -96px;
+  left: -106px;
 }
 .footer-logo-subspan {
   position: relative;
@@ -354,10 +367,11 @@ body {
 }
 /* About */
 .about {
+  font-family: 'BeauSans', sans-serif;
   display: none;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
-  height: 1200px;
+  height: 1230px;
   padding-top: 90px;
 }
 .about-slider-wrap {
@@ -407,7 +421,6 @@ body {
 }
 .about-title {
   font-size: 35px;
-  font-family: 'Otari Bold', sans-serif;
   color: #f2b10d;
 }
 .about-text {
@@ -417,23 +430,139 @@ body {
 /* Schedule */
 .schedule {
   display: none;
-}
-/* Ayurveda */
-.ayurveda {
-  display: none;
   padding-top: 80px;
-  height: 700px;
+  padding-bottom: 50px;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
 }
-.ayurveda-treatments-wraps {
-  width: 480px;
+/* Ayurveda */
+.ayurveda {
+  font-family: 'BeauSans', sans-serif;
+  display: none;
+  padding-top: 80px;
+  background: url(../img/bg.jpg) top center no-repeat;
+  background-size: cover;
+}
+.ayurveda-row {
+  margin-bottom: 50px;
+}
+.ayurveda-priceBlock {
+  width: 96%;
+  height: 220px;
   background-color: #fff;
-  text-align: center;
-  border: solid 1px red;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+.ayurveda-treatments-wraps {
+  background: rgba(0, 0, 0, 0.05);
+  height: 571px;
+  box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
 }
 .ayurveda-treatments-img {
   width: 100%;
+}
+.ayurveda-left {
+  text-align: center;
+}
+.ayurveda-price {
+  color: #f2b10d;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 34px;
+}
+.ayurveda-rub {
+  fill: #f2b10d;
+  width: 31px;
+  margin-left: -5px;
+  margin-top: -8px;
+}
+.ayurveda-btn {
+  background-color: transparent;
+  border-radius: 30px;
+  width: 70%;
+  height: 40px;
+  color: #f2b10d;
+  font-size: 17px;
+  margin-left: -10px;
+}
+.ayurveda-btn:hover {
+  color: #fff;
+  background-color: #f2b10d;
+}
+.ayurveda-btn:focus {
+  outline: none;
+}
+.ayurveda-massage {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.ayurveda-massage-span {
+  margin-right: 5px;
+}
+.ayurveda-clock {
+  width: 11px;
+  display: inline-block;
+  margin-right: 3px;
+  position: relative;
+  top: -2px;
+}
+/* Yoga */
+.yoga {
+  display: none;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background: url(../img/bg.jpg) top center no-repeat;
+  background-size: cover;
+  font-family: 'BeauSans', sans-serif;
+}
+.yoga-table {
+  border: solid 5px #f2b10d;
+  border-radius: 9px;
+  font-size: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 570px;
+}
+.yoga-visits {
+  padding-left: 20px;
+}
+.yoga-table thead {
+  background-color: #f2b10d;
+}
+.yoga-table thead tr {
+  font-size: 22px;
+  color: #fff;
+}
+.yoga-table tbody tr:nth-child(2n) {
+  background-color: #FDDCAF;
+}
+.yoga-table tbody tr:nth-child(2n+1) {
+  background-color: #F6EDF7;
+}
+/* Passage */
+.passage {
+  display: none;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background: url(../img/bg.jpg) top center no-repeat;
+  background-size: cover;
+}
+.passage-row {
+  margin-bottom: 20px;
+}
+.passage-col {
+  text-align: center;
+}
+.passage-img {
+  width: 370px;
+  cursor: pointer;
+}
+.passage-img:hover {
+  opacity: 0.5;
 }
 /* Меню на маленьких экранах */
 .menu-min {
@@ -451,6 +580,7 @@ body {
 .menu-min-link {
   font-size: 22px;
   padding: 5px 0;
+  font-family: 'BeauSans', sans-serif;
 }
 .menu-min-wrap {
   display: none;
