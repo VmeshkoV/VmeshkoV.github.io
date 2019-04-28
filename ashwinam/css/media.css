@@ -18,7 +18,7 @@
     height: 235px;
   }
   .slider-logo{
-    top: 131px;
+    top: 90px;
     font-size: 27px;
   }
   .main{
@@ -98,6 +98,8 @@
   }
   .about{
     height: 965px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .about-btn-prev, .about-btn-next{
     top: 66px;
@@ -157,6 +159,12 @@
   .ayurveda-massage{
     margin-top: -19px;
   }
+  .schedule-table{
+    display: none;
+  }
+  .slider-fotorama{
+    height: 176px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 768px){
@@ -179,7 +187,7 @@
     height: 322px;
   }
   .slider-logo{
-    top: 169px;
+    top: 110px;
     font-size: 39px;
   }
   .main{
@@ -235,6 +243,8 @@
   }
   .about {
     height: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .footer-logo-wrap{
     margin-top: -83px;
@@ -279,6 +289,12 @@
   .passage-row{
     margin-bottom: 0;
   }
+  .schedule-table{
+    display: none;
+  }
+  .slider-fotorama{
+    height: 261px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 624px){
@@ -310,7 +326,7 @@
   }
   .slider-logo{
     top: 228;
-    font-size: 68px;
+    font-size: 60px;
   }
   .main{
     height: 980px;
@@ -403,6 +419,15 @@
   .passage-row{
     margin-bottom: 0;
   }
+  .schedule-table{
+    font-size: 13px;
+  }
+  .schedule-min{
+    display: none;
+  }
+  .slider-fotorama {
+    height: 361px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
@@ -410,7 +435,7 @@
     height: 602px;
   }
   .slider-logo{
-    top: 315px;
+    top: 200px;
   }
   .header-menu-list {
     font-size: 13px;
@@ -479,11 +504,23 @@
   .passage-img{
     width: 300px;
   }
+  .schedule-table{
+    font-size: 15px;
+  }
+  .schedule-min{
+    display: none;
+  }
+  .slider-fotorama {
+    height: 542px;
+  }
+  .about{
+    height: 1220px;
+  }
 }
 
 @media (min-width: 1201px){
   .slider-logo{
-    top: 380px;
+    top: 280px;
   }
   .header-logo-subspan {
     position: relative;
@@ -504,5 +541,17 @@
   }
   .ayurveda-treatments-wraps{
     height: 595px;
+  }
+  .schedule-table{
+    font-size: 15px;
+  }
+  .schedule-min{
+    display: none;
+  }
+  .slider-wrap{
+    height: 739px;
+  }
+  .main{
+    padding-top: 70px;
   }
 }

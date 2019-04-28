@@ -161,6 +161,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.slider-fotorama {
+  height: 730px;
+}
 .slider-item {
   width: auto;
   height: 100%;
@@ -170,10 +173,10 @@ body {
 }
 .slider-logo {
   position: absolute;
-  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 130px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   color: #fff;
   font-size: 69px;
   font-family: 'Otari Bold', sans-serif;
@@ -373,7 +376,7 @@ body {
   display: none;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
-  height: 1230px;
+  height: 1350px;
   padding-top: 90px;
 }
 .about-slider-wrap {
@@ -414,9 +417,6 @@ body {
   z-index: 1;
   right: 10px;
 }
-.about-first-row {
-  height: 520px;
-}
 .about-second-row {
   text-align: justify;
   padding-top: 50px;
@@ -437,6 +437,51 @@ body {
   padding-bottom: 50px;
   background: url(../img/bg.jpg) top center no-repeat;
   background-size: cover;
+}
+.schedule-table {
+  border: solid 5px #f2b10d;
+  border-radius: 9px;
+  font-size: 17px;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 570px;
+  box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
+}
+.schedule-ul {
+  padding-left: 0;
+}
+.schedule-day {
+  font-size: 19px;
+  font-family: 'BeauSans', sans-serif;
+  color: #570861;
+  margin-top: 30px;
+}
+.schedule-min {
+  border: solid 3px #f2b10d;
+  text-align: center;
+  border-radius: 9px;
+  padding-bottom: 15px;
+}
+.schedule-min-item {
+  list-style-type: none;
+}
+.schedule-table thead {
+  background-color: #f2b10d;
+}
+.schedule-table thead tr {
+  font-size: 22px;
+  color: #fff;
+}
+.schedule-table tbody tr:nth-child(2n) {
+  background-color: #FDDCAF;
+}
+.schedule-table tbody tr:nth-child(2n+1) {
+  background-color: #F6EDF7;
+}
+.schedule-table tbody tr td span {
+  display: block;
 }
 /* Ayurveda */
 .ayurveda {
@@ -625,12 +670,11 @@ iframe {
   -moz-box-shadow: 1px 4px 7px 1px rgba(0, 0, 0, 0.59);
 }
 /* Кнопки слайдера о нас */
-#prev:focus,
-#next:focus {
-  outline: none;
+.fotorama__arr {
+  display: none;
 }
-.slick-dotted.slick-slider {
-  margin-bottom: 0;
+.fotorama__nav-wrap {
+  display: none;
 }
 .active {
   color: #f2b10d;
