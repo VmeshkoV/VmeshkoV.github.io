@@ -6,6 +6,8 @@ Repository for examples of my work
 
 [Клавиатура Apple на HTML, CSS](https://vmeshkoV.github.io/keyboard/ "Клавиатура Apple на HTML, CSS"): Клавиатура Apple на HTML, CSS
 
+[Конвертер текста в SWIFT-RUR6](https://vmeshkov.github.io/converter_SWIFT_RUR6/ "Конвертер текста в SWIFT-RUR6"): Конвертер текста в SWIFT-RUR6
+
 [Транспортная компания](https://vmeshkov.github.io/BTG/ "Транспортная компания"): Сайт для транспортной компании (первая версия)
 
 [Городская распродажа в Челябинске](https://vmeshkov.github.io/sale/ "Распродажа"): Сайт - визитка для городской распродажи
