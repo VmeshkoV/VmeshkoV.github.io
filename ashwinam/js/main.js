@@ -48,41 +48,49 @@ function getPageMin(el) {
     $(el).addClass('active');
     $('section').hide();
     $('.about').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'main-Mind'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.slider-wrap, .main, .partners').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'schedule-min'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.schedule').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'ayurveda-min'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.ayurveda').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'yoga-min'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.yoga').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'passage-min'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.passage').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'contacts-min'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.contacts').show();
+    $( ".menu-min-wrap" ).fadeOut();
   } else if(el.id === 'main-min'){
     $('.menu-min-link').removeClass('active');
     $(el).addClass('active');
     $('section').hide();
     $('.slider-wrap, .main, .partners').show();
+    $( ".menu-min-wrap" ).fadeOut();
   }
 };
 
@@ -95,6 +103,7 @@ $(document).ready(function(){
     });
   });
 });
+
 
 
 // Кнопка наверх
