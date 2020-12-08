@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <link rel="stylesheet" href="css/style.css"/>
+<title>Oko</title>
+</head>
+<body>
+  <header>
+    <!-- Меню на мобильных -->
+    <img class="burger_icon" src="img/burger.svg" alt="menu" onclick="openMobileMenu()">
+    <img class="mobile_arrow" src="img/arrow_menu.svg" alt="menu" onclick="closeMobileMenu()">
+    <p class="mobile_menu_text">Меню</p>
+
+    <div id="mobile_menu">
+      <a class="mobile_link" href="#services">Услуги</a>
+      <a class="mobile_link" href="#works">Наши проекты</a>
+      <a class="mobile_link" href="#team">Команда</a>
+      <a class="mobile_link" href="#contacts">Контакты</a>
+    </div>
+
+
+    <a href="#main" onclick="clearActiveLink()"><img class="logo" src="img/logo.svg" alt="logo"></a>
+    <nav>
+      <a class="nav_link" href="#services">Услуги</a>
+      <a class="nav_link" href="#works">Наши проекты</a>
+      <a class="nav_link" href="#team">Команда</a>
+      <a class="nav_link" href="#contacts">Контакты</a>
+    </nav>    
+  </header>
+
+  <!--Секция Main-->
+  <section class="main" id="main" data-vide-bg="mp4: video/main_bg_1, webm: video/main_bg_2, ogv: video/main_bg_3, poster: video/main_bg_4">
+    <h1 class="main_title">Лучшие <br /> специалисты <br /> в области IT</h1>
+  </section>
+
+  <!--Секция Services-->
+  <section class="services" id="services">
+    <h2 class="title">Наши услуги</h2>
+    <hr class="title_hr" />
+    <p class="services_description">
+      Команда ОКО - это динамично развивающийся коллектив <br /> 
+      высококвалифицированных специалистов, нацеленных <br /> 
+      на достижение результата и успех
+    </p>
+
+    <div class="services_container">
+      <div class="service_wrap">
+        <img class="services_img" src="img/services/po.svg" alt="ПО">
+        <p class="services_item_description">Программное <br /> обеспечение</p>
+      </div>
+
+      <div class="service_wrap">
+        <img class="services_img" src="img/services/control_system.svg" alt="Системы управления">
+        <p class="services_item_description">Поддержка систем <br /> управления</p>
+      </div>
+
+      <div class="service_wrap">
+        <img class="services_img" src="img/services/key.svg" alt="Проекты под ключ">
+        <p class="services_item_description">Проекты <br /> «под ключ»</p>
+      </div>
+
+      <div class="service_wrap">
+        <img class="services_img" src="img/services/mobile.svg" alt="Мобильные приложения">
+        <p class="services_item_description">Мобильные <br /> приложения</p>
+      </div>
+
+      <div class="service_wrap">
+        <img class="services_img" src="img/services/staff.svg" alt="Кадровый аутсорсинг">
+        <p class="services_item_description">Кадровый <br /> аутсорсинг</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Секция Works-->
+  <section class="works" id="works">
+    <h2 class="works_title">Наши проекты</h2>
+
+    <div class="works_slider">
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/rfa.jpg" alt="РФС">
+          <img class="works_icon" src="img/works/web.png" alt="icon">
+          <p class="works_slider_descriptions">Единая Информационная <br /> Аналитическая система <br /> Российского футбольного союза</p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/mvd.jpg" alt="Органы">
+          <img class="works_icon" src="img/works/web.png" alt="icon">
+          <p class="works_slider_descriptions">Подсистема трансграничного <br /> обмена информацией между <br /> правоохранительными органами</p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/eletricity.jpg" alt="Электричество">
+          <img class="works_icon" src="img/works/web.png" alt="icon">
+          <p class="works_slider_descriptions">
+            Автоматизированная система <br /> 
+            сбора и обработки информации <br /> 
+            о техническом состоянии объектов <br /> 
+            электроэнергетики и их оборудования
+          </p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/pfr.jpg" alt="Пфр">
+          <img class="works_icon" src="img/works/monitoring.png" alt="icon">
+          <p class="works_slider_descriptions">Мониторинг и управление <br />  технологическими процессами <br /> ПФР</p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/clear.jpg" alt="Чистота города">
+          <img class="works_icon" src="img/works/monitoring.png" alt="icon">
+          <p class="works_slider_descriptions">Мониторинг <br /> чистоты города</p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/sbis.jpg" alt="Сбис">
+          <img class="works_icon" src="img/works/web.png" alt="icon">
+          <p class="works_slider_descriptions">СБИС</p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+      <div class="works_block">
+        <div class="works_slider_content">
+          <img class="works_img" src="img/works/dolgoletie.jpg" alt="Долголетие">
+          <img class="works_icon" src="img/works/web.png" alt="icon">
+          <p class="works_slider_descriptions">Московское долголетие</p>
+          <p class="works_link">Подробнее</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Секция Team-->
+  <section id="team" class="team parallax-window" data-parallax="scroll" data-image-src="img/team/team_bg.jpg">
+    <h2 class="title">Наша команда</h2>
+    <hr class="title_hr" />
+    <p class="services_description">
+      Команда ОКО - это динамично развивающийся коллектив <br />  
+      высококвалифицированных специалистов, нацеленных на достижение <br /> 
+      результата  и успех. Мы сделали ставку на энергичных, талантливых <br /> 
+      сотрудников, которые способны создававть новые возможности для <br /> 
+      бизнеса и реализовать новые идеи на нашем рынке.
+    </p>
+  </section>
+
+  <!--Секция Message-->
+  <section class="message">
+    <h2 class="title">Написать сообщение</h2>
+    <form class="message_form" action="#">
+      <div class="message_side">
+        <label class="message_label" for="name">Ваше имя</label>
+        <input class="message_input" id="name" name="user_name" type="text">
+
+        <label class="message_label" for="email">E-mail</label>
+        <input class="message_input" id="email" name="user_email" type="email">
+
+        <label class="message_label" for="message_theme">Тема сообщения</label>
+        <input class="message_input" id="message_theme" name="message_theme" type="text">
+      </div>
+
+      <div class="message_side">
+        <label class="message_label" for="message_text">Сообщение</label>
+        <textarea class="message_text_input" id="message_text" name="message_text" type="text"></textarea>
+      </div>
+    </form>
+  </section>
+
+  <!--Секция Map-->
+  <section class="map" id="contacts">
+    <img class="map_plus" src="img/map/plus.svg" alt="plus" onclick="openMapModal()">
+  </section>
+
+
+  <!-- Секция Footer -->
+  <footer class="footer">
+    <div class="footer_about">
+      <a href="#main" onclick="clearActiveLink()"><img class="logo" src="img/logo.svg" alt="logo"></a>
+      <p class="footer_description">
+        © 2007-2020 Интернет-агентство ОКО <br /> 
+        Разработка ПО и мобильных приложений, <br /> 
+        поддержка систем управления
+      </p>
+    </div>
+
+    <div class="footer_contacts">
+      <div class="footer_items">
+        <div class="footer_img_wrap">
+          <img class="footer_icons" src="img/footer/point.svg" alt="address">
+        </div>
+
+        <div class="footer_text_wrap">
+          <p class="footer_address">Юридический адрес: <br /> Москва, ул. Крижановского, д. 15, <br /> корпус 5, этаж 5, пом. V, ком.203, оф. 2</p>
+        </div>
+      </div>
+
+      <div class="footer_items">
+        <div class="footer_img_wrap">
+          <img class="footer_icons" src="img/footer/phone.svg" alt="phone">
+        </div>
+       
+        <div class="footer_text_wrap">
+          <p class="footer_phone">Пн - Пт. 9:00 - 20:00 <br /> <span class="footer_phone_span">+ 7 (985) 696 81 76</span></p>
+        </div>
+      </div>
+
+      <div class="footer_items">
+        <div class="footer_img_wrap">
+          <img class="footer_icons" src="img/footer/mail.svg" alt="mail">
+        </div>
+        
+        <div class="footer_text_wrap">
+          <a href="mailto:example@mail.com" class="footer_mail">example@mail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Футер для мобилок -->
+  <footer class="mobile_footer">
+    <div class="footer_mobile_item_wrap">
+      <div class="mobile_icon_wrap">
+        <img class="mobile_logo" src="img/logo.svg" alt="logo">
+      </div>
+
+      <div class="mobile_text_wrap">
+        <p class="mobile_description">
+          © 2007-2020 Интернет-агентство ОКО <br /> 
+          Разработка ПО и мобильных приложений, <br /> 
+          поддержка систем управления
+        </p>
+      </div>
+    </div>
+
+    <div class="footer_mobile_item_wrap">
+      <div class="mobile_icon_wrap">
+        <img class="mobile_logo" src="img/footer/point.svg" alt="address">
+      </div>
+
+      <div class="mobile_text_wrap">
+        <p class="mobile_description">
+          Юридический адрес: <br /> Москва, ул. Крижановского, д. 15, <br /> корпус 5, этаж 5, пом. V, ком.203, оф. 2
+        </p>
+      </div>
+    </div>
+
+    <div class="footer_mobile_item_wrap">
+      <div class="mobile_icon_wrap">
+        <img class="mobile_logo" src="img/footer/phone.svg" alt="phone">
+      </div>
+
+      <div class="mobile_text_wrap">
+        <p class="mobile_description">
+          Пн - Пт. 9:00 - 20:00 <br /> <span class="footer_mobile_span">+ 7 (985) 696 81 76</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer_mobile_item_wrap">
+      <div class="mobile_icon_wrap">
+        <img class="mobile_logo" src="img/footer/mail.svg" alt="mail">
+      </div>
+
+      <div class="mobile_text_wrap">
+        <p class="mobile_description">
+          <a href="mailto:example@mail.com" class="footer_mobile_mail">example@mail.com</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- Модальное окно с картой -->
+  <div id="map_modal">
+    <div class="modal_content">
+      <img class="full_map_img" src="img/map/map.jpg" alt="Map">
+      <img class="map_close" src="img/map/plus.svg" alt="plus" onclick="closeMapModal()">
+    </div>
+  </div>
+
+  <script>
+    let openMapModal = function () {
+      $("#map_modal").show();
+      $("#map_modal").css("pointer-events", "auto;");
+    };
+
+    let closeMapModal = function () {
+      $("#map_modal").hide();
+    };
+  </script>
+
+  <!-- Подключаем jquery для работы всех плагинов и сами плагины -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+
+  <!-- Плагин видеофона -->
+  <script src="js/jquery.vide.min.js"></script>
+
+  <!-- Подключаем стили Slick Slider -->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+
+  <!-- Подключаем библиотеку Slick Slider -->
+  <script src="slick/slick.min.js"></script>
+
+  <!-- Слайдер -->
+  <script>
+    $('.works_slider').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow:'<button class="prev"></button>',
+    nextArrow:'<button class="next"></button>',
+    responsive: [
+      {
+          breakpoint: 1100,
+          settings: {
+            slidesToShow: 3,
+            prevArrow:'<button class="prev"></button>',
+            nextArrow:'<button class="next"></button>',
+            slidesToScroll: 3,
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            prevArrow:'<button class="prev"></button>',
+            nextArrow:'<button class="next"></button>',
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            prevArrow:'<button class="prev"></button>',
+            nextArrow:'<button class="next"></button>',
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+
+  <!-- Подключаем библиотеку паралакса -->
+  <script src="./js/parallax.min.js"></script>
+
+  <!-- Плавная прокрутка с отступом для хедера -->
+  <script>
+    // Окрашивает активную ссылку
+    let list = document.querySelectorAll('.nav_link');
+    list.forEach(item =>{ 
+            item.addEventListener('click', (e) =>{
+            list.forEach(el=>{ el.classList.remove('active_link'); });
+            item.classList.add('active_link')
+        })
+    });
+
+    // Очищает активную ссылку при клике на лого
+    let clearActiveLink = function(){
+      list.forEach(el=>{ el.classList.remove('active_link'); });
+    };
+
+    $('a[href^="#"]').click(function () {
+      let target = $(this).attr('href');
+      $('html, body').animate({scrollTop: $(target).offset().top - 80 }, 600);
+      closeMobileMenu();
+
+      return false;
+    });
+
+    // Открыть-закрыть мобильное меню
+    let openMobileMenu = function () {
+      $("#mobile_menu").show();
+      $(".mobile_arrow").show();
+      $(".burger_icon").hide();
+      $(".mobile_menu_text").show();
+      $(".logo").hide();
+    }
+
+    let closeMobileMenu = function () {
+      $("#mobile_menu").hide();
+      $(".mobile_arrow").hide();
+      $(".burger_icon").show();
+      $(".mobile_menu_text").hide();
+      $(".logo").show();
+    }
+  </script>
+
+</body>
+</html>
