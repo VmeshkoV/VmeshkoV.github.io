@@ -20,7 +20,7 @@ Repository for examples of my work
 
 [Штукатурка гипслолит](https://VmeshkoV.github.io/Gipsolite/ "Гипсолит"): Учебный сайт "Штукатурка Гипсолит"
 
-[Око](https://VmeshkoV.github.io/oko/ "Око"): "Око"
+[Око](https://VmeshkoV.github.io/oko2/ "Око"): "Око"
 
 
 
