@@ -742,6 +742,7 @@ nav {
   transition: opacity 400ms ease-in;
   display: none;
   pointer-events: none;
+  overflow-y: auto;
 }
 .works_close {
   position: absolute;

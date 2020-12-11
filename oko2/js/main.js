@@ -5,12 +5,14 @@ let openProjectModal = function (name) {
   $(".works_mopdal_title").html(projectsTitles[name]);
   $(".modal_text_span").html(projectsTarget[name]);
   $(".modal_text_span_rezult").html(projectsRezult[name]);
-  $(".project_img").attr('src', projectsImg[name] );
+  $(".project_img").attr('src', projectsImg[name]);
+  $("body").css("overflow", "hidden");
 };
 
 let closeProjectModal = function () {
   $("#works_modal").hide(400);
   $("#works_modal").css("pointer-events", "none;");
+  $("body").css("overflow", "auto");
 };
 
 // Открыть - закрыть модальное окно с картой
