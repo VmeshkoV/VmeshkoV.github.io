@@ -3,6 +3,8 @@ Repository for examples of my work
 
 [Прогноз погоды](https://VmeshkoV.github.io/weatherApp/ "Прогноз погоды"): Прогноз погоды
 
+[Переводчик](https://VmeshkoV.github.io/translator/ "Переводчик"): Переводчик
+
 [Маленькое привидение](https://VmeshkoV.github.io/Ghost/ "Маленькое привидение"): Маленькое привидение
 
 [Клавиатура Apple на HTML, CSS](https://vmeshkoV.github.io/keyboard/ "Клавиатура Apple на HTML, CSS"): Клавиатура Apple на HTML, CSS
