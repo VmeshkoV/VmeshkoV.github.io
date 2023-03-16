@@ -5,6 +5,8 @@ Repository for examples of my work
 
 [Переводчик](https://VmeshkoV.github.io/translator/ "Переводчик"): Переводчик
 
+[Лампочка](https://VmeshkoV.github.io/lightBulb/ "Лампочка"): Лампочка
+
 [Маленькое привидение](https://VmeshkoV.github.io/Ghost/ "Маленькое привидение"): Маленькое привидение
 
 [Клавиатура Apple на HTML, CSS](https://vmeshkoV.github.io/keyboard/ "Клавиатура Apple на HTML, CSS"): Клавиатура Apple на HTML, CSS
