@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  width: 100vw;
+  height: 100vh;
+  background-color: #333533;
+}
+
+.bulb {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  fill: #495057;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.bulb:hover {
+  cursor: pointer;
+  fill: #fee440;
+}
+
+.bulb:hover ~.glow {
+  box-shadow: 0 0 108px 29px #fee440;
+}
+
+.glow {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #fee440;
+  transition: all 0.3s ease-in-out;
+}
+
+.base {
+  margin: 83px 0 0 16.5px;
+  fill: #adb5bd;
+}
+
