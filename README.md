@@ -1,6 +1,8 @@
 # Vladimir Meshkov / Front-end developer
 Repository for examples of my work
 
+[Генератор QR Кода](https://VmeshkoV.github.io/QRCodeGenerator/ "Генератор QR Кода"): Генератор QR Кода
+
 [Прогноз погоды](https://VmeshkoV.github.io/weatherApp/ "Прогноз погоды"): Прогноз погоды
 
 [Переводчик](https://VmeshkoV.github.io/translator/ "Переводчик"): Переводчик
