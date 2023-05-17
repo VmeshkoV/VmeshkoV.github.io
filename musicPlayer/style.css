@@ -35,11 +35,12 @@ body{
   min-height: 50%;
   /* filter: blur(50px);
   -webkit-filter: blur(50px); */
-
-  -webkit-filter: blur(50px);
-  -moz-filter: blur(50px);
-  -ms-filter: blur(50px);
-   filter: blur(50px);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(50px);
+  -moz-backdrop-filter: blur(50px);
+  -ms-backdrop-filter: blur(50px);
   /* transform: scale(1.1);  */
 }
 
