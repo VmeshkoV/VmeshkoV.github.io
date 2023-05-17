@@ -1,5 +1,6 @@
 # Vladimir Meshkov / Front-end developer
 Repository for examples of my work
+
 [Музыкальный плеер](https://VmeshkoV.github.io/musicPlayer/ "Музыкальный плеер"): Музыкальный плеер
 
 [Генератор QR Кода](https://VmeshkoV.github.io/QRCodeGenerator/ "Генератор QR Кода"): Генератор QR Кода
