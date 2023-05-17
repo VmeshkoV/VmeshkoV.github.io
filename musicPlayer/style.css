@@ -39,8 +39,8 @@ body{
   -webkit-filter: blur(50px);
   transform: scale(1.1);  */
 
-  filter: blur(50px);
-  -webkit-filter: blur(50px);
+  /* filter: blur(50px);
+  -webkit-filter: blur(50px); */
   /* transform: scale(1.1); */
 }
 
