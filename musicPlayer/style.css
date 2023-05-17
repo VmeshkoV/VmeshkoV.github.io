@@ -33,14 +33,13 @@ body{
   right: 0;
   min-width: 50%;
   min-height: 50%;
- filter: blur(50px);
+
 
  backdrop-filter:blur(50px);
-   /* -webkit-filter: blur(50px); */
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   -webkit-backdrop-filter:blur(50px);
-  /* transform: scale(1.1);  */
+  transform: scale(1.1); 
 }
 
 .container{
