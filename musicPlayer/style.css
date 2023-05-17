@@ -27,17 +27,16 @@ body{
 .background img{
   position: absolute;
   margin: auto;
+  background-size: cover;
+  background-position: center;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   min-width: 50%;
   min-height: 50%;
- filter: blur(20px);
-
- backdrop-filter:blur(20px);
-  background-size: cover;
-  background-position: center;
+  filter: blur(20px);
+  backdrop-filter:blur(20px);
   -webkit-backdrop-filter:blur(20px);
   transform: scale(1.1); 
 }
