@@ -33,9 +33,9 @@ body{
   right: 0;
   /* min-width: 50%;
   min-height: 50%; */
-  filter: blur(50px);
+  /* filter: blur(50px);
   -webkit-filter: blur(50px);
-  transform: scale(1.1); 
+  transform: scale(1.1);  */
 }
 
 .container{
